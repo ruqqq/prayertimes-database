@@ -7,7 +7,7 @@ IMPORTANT: Refer to [LICENSE](https://raw.githubusercontent.com/ruqqq/prayertime
 
 # Changelogs
 **28/12/2016**
-Initial framework/tools/data commit using data from PrayerTime.sg (sourced out from MUIS PDFs).
+Initial framework/tools/data commit using data from PrayerTime.sg (sourced out from MUIS PDFs). 2017 data parsed from existing work done by [MPT](https://github.com/MalaysiaPrayerTimes/provider-muis).
 
 # How to Use
 Minimally, the data set can be used by directly linking  [data.json](https://raw.githubusercontent.com/ruqqq/prayertimes-database/master/data.json) file in your web/app and do local parsing.
