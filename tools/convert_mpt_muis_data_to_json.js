@@ -6,6 +6,11 @@ function parseTime(day, month, year, time, prayer_id) {
   var timeSplit = time.split(' ');
   var timeH = parseInt(timeSplit[0].trim());
   var timeM = parseInt(timeSplit[1].trim());
+  if (prayer_id > 1) {
+    if (timeH < 12) {
+      timeH += 12;
+    }
+  }
   var iso8601 = year + '-' + (month < 10 ? '0' + month : month) + '-' + (day < 10 ? '0' + day : day) + 'T' + (timeH < 10 ? '0' + timeH : timeH) + ':' + (timeM < 10 ? '0' + timeM : timeM) + ':00' + '+08:00';
 
   return new Date(iso8601);
