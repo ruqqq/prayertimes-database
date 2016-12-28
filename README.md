@@ -8,6 +8,7 @@ IMPORTANT: Refer to [LICENSE](https://raw.githubusercontent.com/ruqqq/prayertime
 # Changelogs
 **29/12/2016**
 Fixed and regenerated 2017 data for 24h timings issue.
+
 **28/12/2016**
 Initial framework/tools/data commit using data from PrayerTime.sg (sourced out from MUIS PDFs). 2017 data parsed from existing work done by [MPT](https://github.com/MalaysiaPrayerTimes/provider-muis).
 
