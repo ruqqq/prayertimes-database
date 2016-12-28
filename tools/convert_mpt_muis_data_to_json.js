@@ -1,39 +1,48 @@
+// Data acquired from: https://raw.githubusercontent.com/MalaysiaPrayerTimes/provider-muis/master/src/Mpt/Providers/Muis/Resources/2017.csv
 var fs = require('fs');
 var parse = require('csv-parse/lib/sync');
 
-var contents = fs.readFileSync('../sources/prayertime_sg_28-12-16_2-44 PM.csv', 'utf8');
-var parsed = parse(contents, {delimiter: ',', columns: true});
+function parseTime(day, month, year, time, prayer_id) {
+  var timeSplit = time.split(' ');
+  var timeH = parseInt(timeSplit[0].trim());
+  var timeM = parseInt(timeSplit[1].trim());
+  var iso8601 = year + '-' + (month < 10 ? '0' + month : month) + '-' + (day < 10 ? '0' + day : day) + 'T' + (timeH < 10 ? '0' + timeH : timeH) + ':' + (timeM < 10 ? '0' + timeM : timeM) + ':00' + '+08:00';
+
+  return new Date(iso8601);
+}
+
+var contents = fs.readFileSync('../sources/mpt_muis_provider_2017.csv', 'utf8');
+var parsed = parse(contents, {delimiter: ','});
 var output = {};
 
 // Iterate the parsed CSV and construct our JSON data
 for (var item of parsed) {
-  var iso8601 = item['year'] + '-' + (item['month'] < 10 ? '0' + item['month'] : item['month']) + '-' + (item['day'] < 10 ? '0' + item['day'] : item['day']) + 'T' + item['time'] + '+08:00';
-  var time = new Date(iso8601);
+  var date = item[0].split('/');
+  var year = parseInt(date[2]);
+  var month = parseInt(date[1]);
+  var day = parseInt(date[0]);
   
-  if (!output[parseInt(item['year'])]) {
-    output[parseInt(item['year'])] = {};
+  if (!output[year]) {
+    output[year] = {};
   }
-  if (!output[parseInt(item['year'])][parseInt(item['month'])]) {
-    output[parseInt(item['year'])][parseInt(item['month'])] = {};
-  }
-  if (!output[parseInt(item['year'])][parseInt(item['month'])][parseInt(item['day'])]) {
-    output[parseInt(item['year'])][parseInt(item['month'])][parseInt(item['day'])] = {
-      date: parseInt(item['day']),
-      month: parseInt(item['month']),
-      year: parseInt(item['year']),
-      localityCode: 'SG-1',
-      source_id: 0,
-      times: {},
-      updated: new Date(item['updated']).toISOString()
-    };
-  } else {
-    var dayMeta = output[parseInt(item['year'])][parseInt(item['month'])][parseInt(item['day'])];
-    if (new Date(dayMeta['updated']).getTime() < new Date(item['updated']).getTime()) {
-      dayMeta['updated'] = new Date(item['updated']).toISOString();
-    }
+  if (!output[year][month]) {
+    output[year][month] = {};
   }
 
-  output[parseInt(item['year'])][parseInt(item['month'])][parseInt(item['day'])]['times'][parseInt(item['prayer_id'])] = time.toISOString();
+  var times = [];
+  for (var i = 0; i < 6; i++) {
+    times.push(parseTime(day, month, year, item[i + 2], i).toISOString());
+  }
+
+  output[year][month][day] = {
+    date: day,
+    month: month,
+    year: year,
+    localityCode: 'SG-1',
+    source_id: 0,
+    times: times,
+    updated: new Date().toISOString()
+  };
 }
 
 // Convert objects to array except for years
