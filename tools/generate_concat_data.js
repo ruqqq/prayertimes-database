@@ -29,7 +29,7 @@ for (var country of countries) {
       for (var file of files) {
         var json = JSON.parse(fs.readFileSync('../data/' + country + '/' + code + '/' + year + '/' + file, 'utf8'));
 
-        month = parseInt(file.replace('.json', ''));
+        month = parseInt(file.replace('.json', '')) - 1;
         output[year][month] = json;
       }
     }

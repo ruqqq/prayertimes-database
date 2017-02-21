@@ -73,6 +73,6 @@ for (var year of Object.keys(output)) {
   }
   for (var month of Object.keys(yearItem)) {
     var monthItem = output[year][month];
-    fs.writeFile('../data/SG/1/' + year + '/' + (month < 10 ? '0' + month : month) + '.json', JSON.stringify(monthItem, null, 4));
+    fs.writeFile('../data/SG/1/' + year + '/' + (month+1) + '.json', JSON.stringify(monthItem, null, 4));
   }
 }
