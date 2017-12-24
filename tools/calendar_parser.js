@@ -14,7 +14,7 @@ const HIJRI_MONTHS = {
   'Zulkaedah': 11,
   'Zulhijjah': 12,
 };
-var calendarData = fs.readFileSync('../sources/Islamic Calendar 2017.txt', 'utf8');
+var calendarData = fs.readFileSync('../sources/Islamic Calendar 2018.txt', 'utf8');
 var reg = /[0-9]+\n([a-zA-z])+/g;
 var matches = calendarData.match(reg);
 
@@ -22,11 +22,11 @@ var matches = calendarData.match(reg);
 var calendar = [];
 var month = [];
 var curMonth = 0;
-var hijriYear = 1438;
+var hijriYear = 1439;
 
-var firstDate = new Date('1 January 2017');
+var firstDate = new Date('1 January 2018');
 
-var counter = 2;
+var counter = 13;
 var totalDays = 0;
 for (match of matches) {
   var matchSplit = match.split('\n');
@@ -42,11 +42,11 @@ for (match of matches) {
     // console.log('---');
   }
 
-  if (matchSplit[1] == 'Muharram' && hijriYear != 1439) {
+  if (matchSplit[1] == 'Muharram' && hijriYear != 1440) {
     hijriYear++;
   }
 
-  // console.log(firstDate.getMonth(), curMonth, date, matchSplit[1]);
+  console.log(firstDate.getMonth(), curMonth, date, matchSplit[1]);
   var hijriMonth = HIJRI_MONTHS[matchSplit[1]];
   if (!hijriMonth) throw new Exception('Invalid hijri month');
   month.push({hijriDate: date, hijriMonth: hijriMonth, hijriYear: hijriYear, date: firstDate.getDate(), month: firstDate.getMonth() + 1, year: firstDate.getFullYear(), localityCode: 'SG-1', source_id: 0});
@@ -64,7 +64,7 @@ for (match of matches) {
 console.log(totalDays);
 
 // Save our datas (in months folder)
-if (!fs.existsSync('../hijri/2017')) {
-    fs.mkdirSync('../hijri/2017');
+if (!fs.existsSync('../hijri/2018')) {
+    fs.mkdirSync('../hijri/2018');
 }
-fs.writeFile('../hijri/2017/SG-1.json', JSON.stringify(calendar, null, 4));
+fs.writeFile('../hijri/2018/SG-1.json', JSON.stringify(calendar, null, 4));

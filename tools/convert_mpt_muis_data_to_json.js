@@ -1,4 +1,4 @@
-// Data acquired from: https://raw.githubusercontent.com/MalaysiaPrayerTimes/provider-muis/master/src/Mpt/Providers/Muis/Resources/2017.csv
+// Data acquired from: https://raw.githubusercontent.com/MalaysiaPrayerTimes/provider-muis/master/src/Mpt/Providers/Muis/Resources/2018.csv
 var fs = require('fs');
 var parse = require('csv-parse/lib/sync');
 
@@ -16,7 +16,7 @@ function parseTime(day, month, year, time, prayer_id) {
   return new Date(iso8601);
 }
 
-var contents = fs.readFileSync('../sources/mpt_muis_provider_2017.csv', 'utf8');
+var contents = fs.readFileSync('../sources/mpt_muis_provider_2018.csv', 'utf8');
 var parsed = parse(contents, {delimiter: ','});
 var output = {};
 
@@ -86,6 +86,7 @@ for (var year of Object.keys(output)) {
     fs.mkdirSync('../data/SG/1/' + year);
   }
   for (var month of Object.keys(yearItem)) {
+    month = parseInt(month);
     var monthItem = output[year][month];
     fs.writeFile('../data/SG/1/' + year + '/' + (month+1) + '.json', JSON.stringify(monthItem, null, 4));
   }
