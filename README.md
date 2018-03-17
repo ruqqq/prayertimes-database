@@ -6,6 +6,9 @@ Flat file + JSON database to make prayer times data (location and timings) readi
 IMPORTANT: Refer to [LICENSE](https://raw.githubusercontent.com/ruqqq/prayertimes-database/master/LICENSE) for terms of use.
 
 # Changelogs
+**17/03/2018**
+Add timings MY for 2018. Data is built on the work by [Azan Pro](http://api.azanpro.com/).
+
 **24/12/2017**
 Add timings and hijri for 2018. Timings for SG 2018 is extracted by [MPT](https://github.com/MalaysiaPrayerTimes/provider-muis).
 

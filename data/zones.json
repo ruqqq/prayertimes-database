@@ -1,0 +1,1520 @@
+{
+    "Johor": [
+        {
+            "code": "JHR01",
+            "state": "Johor",
+            "city": "Pulau Aur",
+            "lat": 2.444152,
+            "lng": 104.524746
+        },
+        {
+            "code": "JHR01",
+            "state": "Johor",
+            "city": "Pemanggil",
+            "lat": 2.580882,
+            "lng": 104.326827
+        },
+        {
+            "code": "JHR02",
+            "state": "Johor",
+            "city": "Kota Tinggi",
+            "lat": 1.729375,
+            "lng": 103.899227
+        },
+        {
+            "code": "JHR02",
+            "state": "Johor",
+            "city": "Mersing",
+            "lat": 2.430917,
+            "lng": 103.836115
+        },
+        {
+            "code": "JHR02",
+            "state": "Johor",
+            "city": "Johor Bahru",
+            "lat": 1.492659,
+            "lng": 103.741359
+        },
+        {
+            "code": "JHR03",
+            "state": "Johor",
+            "city": "Kluang",
+            "lat": 2.030068,
+            "lng": 103.318464
+        },
+        {
+            "code": "JHR03",
+            "state": "Johor",
+            "city": "Pontian",
+            "lat": 1.485561,
+            "lng": 103.387859
+        },
+        {
+            "code": "JHR04",
+            "state": "Johor",
+            "city": "Batu Pahat",
+            "lat": 1.849442,
+            "lng": 102.928834
+        },
+        {
+            "code": "JHR04",
+            "state": "Johor",
+            "city": "Muar",
+            "lat": 2.048817,
+            "lng": 102.571553
+        },
+        {
+            "code": "JHR04",
+            "state": "Johor",
+            "city": "Segamat",
+            "lat": 2.50346,
+            "lng": 102.820754
+        },
+        {
+            "code": "JHR04",
+            "state": "Johor",
+            "city": "Gemas",
+            "lat": 2.581593,
+            "lng": 102.612488
+        }
+    ],
+    "Kedah": [
+        {
+            "code": "KDH01",
+            "state": "Kedah",
+            "city": "Kota Setar",
+            "lat": 6.096953,
+            "lng": 100.353977
+        },
+        {
+            "code": "KDH01",
+            "state": "Kedah",
+            "city": "Kubang Pasu",
+            "lat": 6.267335,
+            "lng": 100.425831
+        },
+        {
+            "code": "KDH01",
+            "state": "Kedah",
+            "city": "Pokok Sena",
+            "lat": 6.167317,
+            "lng": 100.519358
+        },
+        {
+            "code": "KDH02",
+            "state": "Kedah",
+            "city": "Pendang",
+            "lat": 5.993039,
+            "lng": 100.477339
+        },
+        {
+            "code": "KDH02",
+            "state": "Kedah",
+            "city": "Kuala Muda",
+            "lat": 5.644561,
+            "lng": 100.489023
+        },
+        {
+            "code": "KDH02",
+            "state": "Kedah",
+            "city": "Yan",
+            "lat": 5.79495,
+            "lng": 100.372658
+        },
+        {
+            "code": "KDH03",
+            "state": "Kedah",
+            "city": "Padang Terap",
+            "lat": 6.256764,
+            "lng": 100.611034
+        },
+        {
+            "code": "KDH03",
+            "state": "Kedah",
+            "city": "Sik",
+            "lat": 5.818345,
+            "lng": 100.743021
+        },
+        {
+            "code": "KDH04",
+            "state": "Kedah",
+            "city": "Baling",
+            "lat": 5.675547,
+            "lng": 100.916814
+        },
+        {
+            "code": "KDH05",
+            "state": "Kedah",
+            "city": "Kulim",
+            "lat": 5.371742,
+            "lng": 100.555337
+        },
+        {
+            "code": "KDH05",
+            "state": "Kedah",
+            "city": "Bandar Bahru",
+            "lat": 5.131163,
+            "lng": 100.495534
+        },
+        {
+            "code": "KDH06",
+            "state": "Kedah",
+            "city": "Langkawi",
+            "lat": 6.35,
+            "lng": 99.8
+        },
+        {
+            "code": "KDH07",
+            "state": "Kedah",
+            "city": "Gunung Jerai",
+            "lat": 5.783333,
+            "lng": 100.433333
+        }
+    ],
+    "Kelantan": [
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Kota Bahru",
+            "lat": 6.116786,
+            "lng": 102.277684
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Bachok",
+            "lat": 6.069586,
+            "lng": 102.397185
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Pasir Puteh",
+            "lat": 5.836163,
+            "lng": 102.407741
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Tumpat",
+            "lat": 6.199069,
+            "lng": 102.169372
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Pasir Mas",
+            "lat": 6.042412,
+            "lng": 102.142782
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Tanah Merah",
+            "lat": 5.808887,
+            "lng": 102.147077
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Machang",
+            "lat": 5.767933,
+            "lng": 102.215387
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Kuala Krai",
+            "lat": 5.530813,
+            "lng": 102.201851
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Mukim Chiku",
+            "lat": 4.916993,
+            "lng": 102.177656
+        },
+        {
+            "code": "KTN03",
+            "state": "Kelantan",
+            "city": "Jeli",
+            "lat": 5.700699,
+            "lng": 101.843151
+        },
+        {
+            "code": "KTN03",
+            "state": "Kelantan",
+            "city": "Gua Musang",
+            "lat": 4.884279,
+            "lng": 101.968178
+        },
+        {
+            "code": "KTN03",
+            "state": "Kelantan",
+            "city": "Mukim Galas",
+            "lat": 4.828924,
+            "lng": 101.934807
+        },
+        {
+            "code": "KTN03",
+            "state": "Kelantan",
+            "city": "Bertam",
+            "lat": 5.151936,
+            "lng": 102.043792
+        }
+    ],
+    "Melaka": [
+        {
+            "code": "MLK01",
+            "state": "Melaka",
+            "city": "Bandar Melaka",
+            "lat": 2.197138,
+            "lng": 102.24907
+        },
+        {
+            "code": "MLK01",
+            "state": "Melaka",
+            "city": "Alor Gajah",
+            "lat": 2.382211,
+            "lng": 102.211561
+        },
+        {
+            "code": "MLK01",
+            "state": "Melaka",
+            "city": "Jasin",
+            "lat": 2.311337,
+            "lng": 102.430923
+        },
+        {
+            "code": "MLK01",
+            "state": "Melaka",
+            "city": "Masjid Tanah",
+            "lat": 2.352279,
+            "lng": 102.108926
+        },
+        {
+            "code": "MLK01",
+            "state": "Melaka",
+            "city": "Merlimau",
+            "lat": 2.145214,
+            "lng": 102.422383
+        },
+        {
+            "code": "MLK01",
+            "state": "Melaka",
+            "city": "Nyalas",
+            "lat": 2.436091,
+            "lng": 102.469871
+        }
+    ],
+    "Negeri Sembilan": [
+        {
+            "code": "NGS01",
+            "state": "Negeri Sembilan",
+            "city": "Jempol",
+            "lat": 2.896577,
+            "lng": 102.405454
+        },
+        {
+            "code": "NGS01",
+            "state": "Negeri Sembilan",
+            "city": "Tampin",
+            "lat": 2.472971,
+            "lng": 102.231194
+        },
+        {
+            "code": "NGS02",
+            "state": "Negeri Sembilan",
+            "city": "Port Dickson",
+            "lat": 2.52254,
+            "lng": 101.796293
+        },
+        {
+            "code": "NGS02",
+            "state": "Negeri Sembilan",
+            "city": "Seremban",
+            "lat": 2.725889,
+            "lng": 101.937824
+        },
+        {
+            "code": "NGS02",
+            "state": "Negeri Sembilan",
+            "city": "Kuala Pilah",
+            "lat": 2.740474,
+            "lng": 102.248872
+        },
+        {
+            "code": "NGS02",
+            "state": "Negeri Sembilan",
+            "city": "Jelebu",
+            "lat": 2.941072,
+            "lng": 102.07191
+        },
+        {
+            "code": "NGS02",
+            "state": "Negeri Sembilan",
+            "city": "Rembau",
+            "lat": 2.590525,
+            "lng": 102.092986
+        }
+    ],
+    "Pahang": [
+        {
+            "code": "PHG01",
+            "state": "Pahang",
+            "city": "Pulau Tioman",
+            "lat": 2.790249,
+            "lng": 104.169846
+        },
+        {
+            "code": "PHG02",
+            "state": "Pahang",
+            "city": "Kuantan",
+            "lat": 3.816667,
+            "lng": 103.333333
+        },
+        {
+            "code": "PHG02",
+            "state": "Pahang",
+            "city": "Pekan",
+            "lat": 3.492095,
+            "lng": 103.389545
+        },
+        {
+            "code": "PHG02",
+            "state": "Pahang",
+            "city": "Rompin",
+            "lat": 2.688626,
+            "lng": 102.522802
+        },
+        {
+            "code": "PHG02",
+            "state": "Pahang",
+            "city": "Muadzam Shah",
+            "lat": 3.056192,
+            "lng": 103.085225
+        },
+        {
+            "code": "PHG03",
+            "state": "Pahang",
+            "city": "Maran",
+            "lat": 3.58338,
+            "lng": 102.779065
+        },
+        {
+            "code": "PHG03",
+            "state": "Pahang",
+            "city": "Chenor",
+            "lat": 3.493743,
+            "lng": 102.58185
+        },
+        {
+            "code": "PHG03",
+            "state": "Pahang",
+            "city": "Temerloh",
+            "lat": 3.448649,
+            "lng": 102.416348
+        },
+        {
+            "code": "PHG03",
+            "state": "Pahang",
+            "city": "Bera",
+            "lat": 3.270526,
+            "lng": 102.453864
+        },
+        {
+            "code": "PHG03",
+            "state": "Pahang",
+            "city": "Jerantut",
+            "lat": 3.937395,
+            "lng": 102.362038
+        },
+        {
+            "code": "PHG04",
+            "state": "Pahang",
+            "city": "Bentong",
+            "lat": 3.522168,
+            "lng": 101.910353
+        },
+        {
+            "code": "PHG04",
+            "state": "Pahang",
+            "city": "Raub",
+            "lat": 3.793532,
+            "lng": 101.857465
+        },
+        {
+            "code": "PHG04",
+            "state": "Pahang",
+            "city": "Kuala Lipis",
+            "lat": 4.18433,
+            "lng": 102.054232
+        },
+        {
+            "code": "PHG05",
+            "state": "Pahang",
+            "city": "Genting Sempah",
+            "lat": 3.35,
+            "lng": 101.783333
+        },
+        {
+            "code": "PHG05",
+            "state": "Pahang",
+            "city": "Janda Baik",
+            "lat": 3.35,
+            "lng": 101.883333
+        },
+        {
+            "code": "PHG05",
+            "state": "Pahang",
+            "city": "Mukit Tinggi",
+            "lat": 3.400997,
+            "lng": 101.846822
+        },
+        {
+            "code": "PHG06",
+            "state": "Pahang",
+            "city": "Bukit Fraser",
+            "lat": 3.711868,
+            "lng": 101.736556
+        },
+        {
+            "code": "PHG06",
+            "state": "Pahang",
+            "city": "Genting Highlands",
+            "lat": 3.423978,
+            "lng": 101.793201
+        },
+        {
+            "code": "PHG06",
+            "state": "Pahang",
+            "city": "Cameron Highlands",
+            "lat": 4.47212,
+            "lng": 101.380144
+        }
+    ],
+    "Perak": [
+        {
+            "code": "PRK01",
+            "state": "Perak",
+            "city": "Tapah",
+            "lat": 4.19773,
+            "lng": 101.261529
+        },
+        {
+            "code": "PRK01",
+            "state": "Perak",
+            "city": "Slim River",
+            "lat": 3.830025,
+            "lng": 101.404645
+        },
+        {
+            "code": "PRK01",
+            "state": "Perak",
+            "city": "Tanjung Malim",
+            "lat": 3.705842,
+            "lng": 101.504916
+        },
+        {
+            "code": "PRK02",
+            "state": "Perak",
+            "city": "Ipoh",
+            "lat": 4.597479,
+            "lng": 101.090106
+        },
+        {
+            "code": "PRK02",
+            "state": "Perak",
+            "city": "Batu Gajah",
+            "lat": 4.472081,
+            "lng": 101.04124
+        },
+        {
+            "code": "PRK02",
+            "state": "Perak",
+            "city": "Kampar",
+            "lat": 4.308504,
+            "lng": 101.153653
+        },
+        {
+            "code": "PRK02",
+            "state": "Perak",
+            "city": "Sungai Siput",
+            "lat": 4.819012,
+            "lng": 101.073718
+        },
+        {
+            "code": "PRK02",
+            "state": "Perak",
+            "city": "Kuala Kangsar",
+            "lat": 4.773595,
+            "lng": 100.942045
+        },
+        {
+            "code": "PRK03",
+            "state": "Perak",
+            "city": "Pengkalan Hulu",
+            "lat": 5.70644,
+            "lng": 100.999837
+        },
+        {
+            "code": "PRK03",
+            "state": "Perak",
+            "city": "Grid",
+            "lat": 5.428454,
+            "lng": 101.129703
+        },
+        {
+            "code": "PRK03",
+            "state": "Perak",
+            "city": "Lenggong",
+            "lat": 5.10844,
+            "lng": 100.968034
+        },
+        {
+            "code": "PRK04",
+            "state": "Perak",
+            "city": "Temenggung",
+            "lat": 5.333186,
+            "lng": 101.367712
+        },
+        {
+            "code": "PRK04",
+            "state": "Perak",
+            "city": "Belum",
+            "lat": 5.740126,
+            "lng": 101.47935
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Teluk Intan",
+            "lat": 4.022424,
+            "lng": 101.020625
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Bagan Datoh",
+            "lat": 3.99191,
+            "lng": 100.786148
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Kampung Gajah",
+            "lat": 4.184167,
+            "lng": 100.938719
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Sri Iskandar",
+            "lat": 4.357145,
+            "lng": 100.963392
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Beruas",
+            "lat": 4.500804,
+            "lng": 100.781508
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Parit",
+            "lat": 4.476689,
+            "lng": 100.909749
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Lumut",
+            "lat": 4.236302,
+            "lng": 100.63222
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Setiawan",
+            "lat": 4.216825,
+            "lng": 100.697824
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Pulau Pangkor",
+            "lat": 4.227491,
+            "lng": 100.557741
+        },
+        {
+            "code": "PRK06",
+            "state": "Perak",
+            "city": "Selama",
+            "lat": 5.218462,
+            "lng": 100.69346
+        },
+        {
+            "code": "PRK06",
+            "state": "Perak",
+            "city": "Taiping",
+            "lat": 4.851932,
+            "lng": 100.741634
+        },
+        {
+            "code": "PRK06",
+            "state": "Perak",
+            "city": "Bagan Serai",
+            "lat": 5.008062,
+            "lng": 100.53943
+        },
+        {
+            "code": "PRK06",
+            "state": "Perak",
+            "city": "Parit Buntar",
+            "lat": 5.118682,
+            "lng": 100.488016
+        },
+        {
+            "code": "PRK07",
+            "state": "Perak",
+            "city": "Bukit Larut",
+            "lat": 4.8623,
+            "lng": 100.793
+        }
+    ],
+    "Perlis": [
+        {
+            "code": "PLS01",
+            "state": "Perlis",
+            "city": "Kangar",
+            "lat": 6.440633,
+            "lng": 100.198371
+        },
+        {
+            "code": "PLS01",
+            "state": "Perlis",
+            "city": "Padang Besar",
+            "lat": 6.662622,
+            "lng": 100.321665
+        },
+        {
+            "code": "PLS01",
+            "state": "Perlis",
+            "city": "Arau",
+            "lat": 6.429708,
+            "lng": 100.269847
+        }
+    ],
+    "Pulau Pinang": [
+        {
+            "code": "PNG01",
+            "state": "Pulau Pinang",
+            "city": "Pulau Pinang",
+            "lat": 5.414168,
+            "lng": 100.328759
+        }
+    ],
+    "Sabah": [
+        {
+            "code": "SBH01",
+            "state": "Sabah",
+            "city": "Sandakan",
+            "lat": 5.839444,
+            "lng": 118.117173
+        },
+        {
+            "code": "SBH01",
+            "state": "Sabah",
+            "city": "Bandar Bukir Garam",
+            "lat": 5.500122,
+            "lng": 117.837606
+        },
+        {
+            "code": "SBH01",
+            "state": "Sabah",
+            "city": "Semawang",
+            "lat": 5.916667,
+            "lng": 117.766666
+        },
+        {
+            "code": "SBH01",
+            "state": "Sabah",
+            "city": "Temanggong",
+            "lat": 4.910632,
+            "lng": 114.934834
+        },
+        {
+            "code": "SBH01",
+            "state": "Sabah",
+            "city": "Tambisan",
+            "lat": 5.450148,
+            "lng": 119.109986
+        },
+        {
+            "code": "SBH02",
+            "state": "Sabah",
+            "city": "Pinangah",
+            "lat": 4.990731,
+            "lng": 116.832411
+        },
+        {
+            "code": "SBH02",
+            "state": "Sabah",
+            "city": "Terusan",
+            "lat": 6.426081,
+            "lng": 117.687599
+        },
+        {
+            "code": "SBH02",
+            "state": "Sabah",
+            "city": "Beluran",
+            "lat": 5.70207,
+            "lng": 117.401544
+        },
+        {
+            "code": "SBH02",
+            "state": "Sabah",
+            "city": "Kuamut",
+            "lat": 5.015856,
+            "lng": 117.353107
+        },
+        {
+            "code": "SBH02",
+            "state": "Sabah",
+            "city": "Telupit",
+            "lat": 5.627233,
+            "lng": 117.127534
+        },
+        {
+            "code": "SBH03",
+            "state": "Sabah",
+            "city": "Lahad Datu",
+            "lat": 5.024206,
+            "lng": 118.330746
+        },
+        {
+            "code": "SBH03",
+            "state": "Sabah",
+            "city": "Kunak",
+            "lat": 4.686116,
+            "lng": 118.251146
+        },
+        {
+            "code": "SBH03",
+            "state": "Sabah",
+            "city": "Silabukan",
+            "lat": 5.136667,
+            "lng": 118.614167
+        },
+        {
+            "code": "SBH03",
+            "state": "Sabah",
+            "city": "Tungku",
+            "lat": 4.931209,
+            "lng": 114.911622
+        },
+        {
+            "code": "SBH03",
+            "state": "Sabah",
+            "city": "Sahabat",
+            "lat": 5.078867,
+            "lng": 119.070775
+        },
+        {
+            "code": "SBH03",
+            "state": "Sabah",
+            "city": "Semporna",
+            "lat": 4.479391,
+            "lng": 118.611545
+        },
+        {
+            "code": "SBH04",
+            "state": "Sabah",
+            "city": "Tawau",
+            "lat": 4.244651,
+            "lng": 117.891186
+        },
+        {
+            "code": "SBH04",
+            "state": "Sabah",
+            "city": "Balong",
+            "lat": 4.398421,
+            "lng": 118.058604
+        },
+        {
+            "code": "SBH04",
+            "state": "Sabah",
+            "city": "Merotai",
+            "lat": 4.356929,
+            "lng": 117.827169
+        },
+        {
+            "code": "SBH04",
+            "state": "Sabah",
+            "city": "Kalabakan",
+            "lat": 4.411679,
+            "lng": 117.492699
+        },
+        {
+            "code": "SBH05",
+            "state": "Sabah",
+            "city": "Kudat",
+            "lat": 6.88684,
+            "lng": 116.825311
+        },
+        {
+            "code": "SBH05",
+            "state": "Sabah",
+            "city": "Kota Marudu",
+            "lat": 6.465705,
+            "lng": 116.726409
+        },
+        {
+            "code": "SBH05",
+            "state": "Sabah",
+            "city": "Pitas",
+            "lat": 6.722237,
+            "lng": 117.055273
+        },
+        {
+            "code": "SBH05",
+            "state": "Sabah",
+            "city": "Pulau Banggi",
+            "lat": 7.26726,
+            "lng": 117.150005
+        },
+        {
+            "code": "SBH06",
+            "state": "Sabah",
+            "city": "Gunung Kinabalu",
+            "lat": 6.074544,
+            "lng": 116.56272
+        },
+        {
+            "code": "SBH07",
+            "state": "Sabah",
+            "city": "Papar",
+            "lat": 5.734628,
+            "lng": 115.931851
+        },
+        {
+            "code": "SBH07",
+            "state": "Sabah",
+            "city": "Ranau",
+            "lat": 5.953561,
+            "lng": 116.66395
+        },
+        {
+            "code": "SBH07",
+            "state": "Sabah",
+            "city": "Kota Belud",
+            "lat": 6.353248,
+            "lng": 116.427877
+        },
+        {
+            "code": "SBH07",
+            "state": "Sabah",
+            "city": "Tuaran",
+            "lat": 6.176269,
+            "lng": 116.23279
+        },
+        {
+            "code": "SBH07",
+            "state": "Sabah",
+            "city": "Penampang",
+            "lat": 5.914199,
+            "lng": 116.107663
+        },
+        {
+            "code": "SBH07",
+            "state": "Sabah",
+            "city": "Kota Kinabalu",
+            "lat": 5.980408,
+            "lng": 116.073457
+        },
+        {
+            "code": "SBH08",
+            "state": "Sabah",
+            "city": "Pensiangan",
+            "lat": 4.55,
+            "lng": 116.316667
+        },
+        {
+            "code": "SBH08",
+            "state": "Sabah",
+            "city": "Keningau",
+            "lat": 5.337404,
+            "lng": 116.15668
+        },
+        {
+            "code": "SBH08",
+            "state": "Sabah",
+            "city": "Tambunan",
+            "lat": 5.721291,
+            "lng": 116.410779
+        },
+        {
+            "code": "SBH08",
+            "state": "Sabah",
+            "city": "Nabawan",
+            "lat": 5.122208,
+            "lng": 116.432583
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Sipitang",
+            "lat": 5.07919,
+            "lng": 115.550825
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Membakut",
+            "lat": 5.527729,
+            "lng": 115.695961
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Beaufort",
+            "lat": 5.345118,
+            "lng": 115.745112
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Kuala Penyu",
+            "lat": 5.571717,
+            "lng": 115.597146
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Weston",
+            "lat": 5.216881,
+            "lng": 115.598801
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Tenom",
+            "lat": 5.130495,
+            "lng": 115.945455
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Long Pa Sia",
+            "lat": 5.97884,
+            "lng": 116.07532
+        }
+    ],
+    "Sarawak": [
+        {
+            "code": "SWK01",
+            "state": "Sarawak",
+            "city": "Limbang",
+            "lat": 4.755032,
+            "lng": 115.008146
+        },
+        {
+            "code": "SWK01",
+            "state": "Sarawak",
+            "city": "Sundar",
+            "lat": 4.887442,
+            "lng": 115.226701
+        },
+        {
+            "code": "SWK01",
+            "state": "Sarawak",
+            "city": "Terusan",
+            "lat": 4.283333,
+            "lng": 115.616666
+        },
+        {
+            "code": "SWK01",
+            "state": "Sarawak",
+            "city": "Lawas",
+            "lat": 4.83495,
+            "lng": 115.393738
+        },
+        {
+            "code": "SWK02",
+            "state": "Sarawak",
+            "city": "Niah",
+            "lat": 3.866516,
+            "lng": 113.730859
+        },
+        {
+            "code": "SWK02",
+            "state": "Sarawak",
+            "city": "Belaga",
+            "lat": 3.200278,
+            "lng": 113.934714
+        },
+        {
+            "code": "SWK02",
+            "state": "Sarawak",
+            "city": "Sibuti",
+            "lat": 4.045211,
+            "lng": 113.799896
+        },
+        {
+            "code": "SWK02",
+            "state": "Sarawak",
+            "city": "Miri",
+            "lat": 4.399493,
+            "lng": 113.991383
+        },
+        {
+            "code": "SWK02",
+            "state": "Sarawak",
+            "city": "Bekenu",
+            "lat": 4.058185,
+            "lng": 113.844193
+        },
+        {
+            "code": "SWK02",
+            "state": "Sarawak",
+            "city": "Marudi",
+            "lat": 4.40634,
+            "lng": 114.26283
+        },
+        {
+            "code": "SWK03",
+            "state": "Sarawak",
+            "city": "Song",
+            "lat": 2.00644,
+            "lng": 112.54976
+        },
+        {
+            "code": "SWK03",
+            "state": "Sarawak",
+            "city": "Balingian",
+            "lat": 2.93087,
+            "lng": 112.53954
+        },
+        {
+            "code": "SWK03",
+            "state": "Sarawak",
+            "city": "Sebauh",
+            "lat": 3.06303,
+            "lng": 113.47761
+        },
+        {
+            "code": "SWK03",
+            "state": "Sarawak",
+            "city": "Bintulu",
+            "lat": 3.171322,
+            "lng": 113.041907
+        },
+        {
+            "code": "SWK03",
+            "state": "Sarawak",
+            "city": "Tatau",
+            "lat": 2.87896,
+            "lng": 112.855621
+        },
+        {
+            "code": "SWK03",
+            "state": "Sarawak",
+            "city": "Kapit",
+            "lat": 1.995115,
+            "lng": 112.933085
+        },
+        {
+            "code": "SWK04",
+            "state": "Sarawak",
+            "city": "Igan",
+            "lat": 2.823991,
+            "lng": 111.710899
+        },
+        {
+            "code": "SWK04",
+            "state": "Sarawak",
+            "city": "Kanowit",
+            "lat": 2.101223,
+            "lng": 112.153298
+        },
+        {
+            "code": "SWK04",
+            "state": "Sarawak",
+            "city": "Sibu",
+            "lat": 2.287284,
+            "lng": 111.830535
+        },
+        {
+            "code": "SWK04",
+            "state": "Sarawak",
+            "city": "Dalat",
+            "lat": 2.666667,
+            "lng": 112.083333
+        },
+        {
+            "code": "SWK04",
+            "state": "Sarawak",
+            "city": "Oya",
+            "lat": 2.858436,
+            "lng": 111.875922
+        },
+        {
+            "code": "SWK05",
+            "state": "Sarawak",
+            "city": "Belawai",
+            "lat": 2.220691,
+            "lng": 111.218333
+        },
+        {
+            "code": "SWK05",
+            "state": "Sarawak",
+            "city": "Matu",
+            "lat": 2.695497,
+            "lng": 111.471668
+        },
+        {
+            "code": "SWK05",
+            "state": "Sarawak",
+            "city": "Daro",
+            "lat": 2.527996,
+            "lng": 111.417057
+        },
+        {
+            "code": "SWK05",
+            "state": "Sarawak",
+            "city": "Sarikei",
+            "lat": 2.131703,
+            "lng": 111.523728
+        },
+        {
+            "code": "SWK05",
+            "state": "Sarawak",
+            "city": "Julau",
+            "lat": 2.024275,
+            "lng": 111.916609
+        },
+        {
+            "code": "SWK05",
+            "state": "Sarawak",
+            "city": "Bitangor",
+            "lat": 2.169966,
+            "lng": 111.636641
+        },
+        {
+            "code": "SWK05",
+            "state": "Sarawak",
+            "city": "Rajang",
+            "lat": 2.137227,
+            "lng": 111.224885
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Kabong",
+            "lat": 1.803557,
+            "lng": 111.130108
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Lingga",
+            "lat": 1.25,
+            "lng": 111.166666
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Sri Aman",
+            "lat": 1.237031,
+            "lng": 111.462079
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Engkelili",
+            "lat": 1.138464,
+            "lng": 111.666259
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Betong",
+            "lat": 1.411517,
+            "lng": 111.528999
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Spaoh",
+            "lat": 1.462578,
+            "lng": 111.479364
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Pusa",
+            "lat": 1.619999,
+            "lng": 111.291599
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Saratok",
+            "lat": 1.738795,
+            "lng": 111.33784
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Roban",
+            "lat": 1.866759,
+            "lng": 111.334493
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Debak",
+            "lat": 1.56267,
+            "lng": 111.422177
+        },
+        {
+            "code": "SWK07",
+            "state": "Sarawak",
+            "city": "Samarahan",
+            "lat": 1.442757,
+            "lng": 110.497711
+        },
+        {
+            "code": "SWK07",
+            "state": "Sarawak",
+            "city": "Simunjan",
+            "lat": 1.072972,
+            "lng": 110.915332
+        },
+        {
+            "code": "SWK07",
+            "state": "Sarawak",
+            "city": "Serian",
+            "lat": 1.167035,
+            "lng": 110.566506
+        },
+        {
+            "code": "SWK07",
+            "state": "Sarawak",
+            "city": "Sebuyau",
+            "lat": 1.396803,
+            "lng": 111.071899
+        },
+        {
+            "code": "SWK07",
+            "state": "Sarawak",
+            "city": "Meludam",
+            "lat": 1.476546,
+            "lng": 111.213336
+        },
+        {
+            "code": "SWK08",
+            "state": "Sarawak",
+            "city": "Kuching",
+            "lat": 1.56,
+            "lng": 110.345
+        },
+        {
+            "code": "SWK08",
+            "state": "Sarawak",
+            "city": "Bau",
+            "lat": 1.417224,
+            "lng": 110.154629
+        },
+        {
+            "code": "SWK08",
+            "state": "Sarawak",
+            "city": "Lundu",
+            "lat": 1.671364,
+            "lng": 109.851969
+        },
+        {
+            "code": "SWK08",
+            "state": "Sarawak",
+            "city": "Sematan",
+            "lat": 1.807459,
+            "lng": 109.775842
+        },
+        {
+            "code": "SWK09",
+            "state": "Sarawak",
+            "city": "Zon Khas",
+            "lat": 4.96258,
+            "lng": 115.554338
+        }
+    ],
+    "Selangor": [
+        {
+            "code": "SGR01",
+            "state": "Selangor",
+            "city": "Gombak",
+            "lat": 3.253502,
+            "lng": 101.653326
+        },
+        {
+            "code": "SGR01",
+            "state": "Selangor",
+            "city": "Hulu Selangor",
+            "lat": 3.560105,
+            "lng": 101.658312
+        },
+        {
+            "code": "SGR01",
+            "state": "Selangor",
+            "city": "Rawang",
+            "lat": 3.320482,
+            "lng": 101.575924
+        },
+        {
+            "code": "SGR01",
+            "state": "Selangor",
+            "city": "Hulu Langat",
+            "lat": 3.113117,
+            "lng": 101.815673
+        },
+        {
+            "code": "SGR01",
+            "state": "Selangor",
+            "city": "Sepang",
+            "lat": 2.691369,
+            "lng": 101.750527
+        },
+        {
+            "code": "SGR01",
+            "state": "Selangor",
+            "city": "Petaling Jaya",
+            "lat": 3.184624,
+            "lng": 101.535967
+        },
+        {
+            "code": "SGR01",
+            "state": "Selangor",
+            "city": "Shah Alam",
+            "lat": 3.073281,
+            "lng": 101.518461
+        },
+        {
+            "code": "SGR02",
+            "state": "Selangor",
+            "city": "Sabak Bernam",
+            "lat": 3.678777,
+            "lng": 100.990592
+        },
+        {
+            "code": "SGR02",
+            "state": "Selangor",
+            "city": "Kuala Selangor",
+            "lat": 3.340184,
+            "lng": 101.249762
+        },
+        {
+            "code": "SGR05",
+            "state": "Selangor",
+            "city": "Klang",
+            "lat": 3.044917,
+            "lng": 101.445562
+        },
+        {
+            "code": "SGR05",
+            "state": "Selangor",
+            "city": "Kuala Langat",
+            "lat": 2.803828,
+            "lng": 101.49507
+        }
+    ],
+    "Singapore": [
+        {
+            "code": "SG",
+            "state": "Singapore",
+            "city": "Singapore",
+            "lat": 1.3521,
+            "lng": 103.8198
+        }
+    ],
+    "Terengganu": [
+        {
+            "code": "TRG01",
+            "state": "Terengganu",
+            "city": "Kuala Terengganu",
+            "lat": 5.329624,
+            "lng": 103.137014
+        },
+        {
+            "code": "TRG01",
+            "state": "Terengganu",
+            "city": "Marang",
+            "lat": 5.207711,
+            "lng": 103.204944
+        },
+        {
+            "code": "TRG02",
+            "state": "Terengganu",
+            "city": "Besut",
+            "lat": 5.829012,
+            "lng": 102.552378
+        },
+        {
+            "code": "TRG02",
+            "state": "Terengganu",
+            "city": "Setiu",
+            "lat": 5.443798,
+            "lng": 102.825218
+        },
+        {
+            "code": "TRG03",
+            "state": "Terengganu",
+            "city": "Hulu Terengganu",
+            "lat": 5.073042,
+            "lng": 103.008937
+        },
+        {
+            "code": "TRG04",
+            "state": "Terengganu",
+            "city": "Kemaman",
+            "lat": 4.77779,
+            "lng": 103.033887
+        },
+        {
+            "code": "TRG04",
+            "state": "Terengganu",
+            "city": "Dungun",
+            "lat": 4.77779,
+            "lng": 103.033887
+        }
+    ],
+    "Putrajaya": [
+        {
+            "code": "SGR04",
+            "state": "Putrajaya",
+            "city": "Putrajaya",
+            "lat": 2.926361,
+            "lng": 101.696445
+        }
+    ],
+    "Kuala Lumpur": [
+        {
+            "code": "SGR03",
+            "state": "Kuala Lumpur",
+            "city": "Kuala Lumpur",
+            "lat": 3.139003,
+            "lng": 101.686855
+        }
+    ],
+    "Labuan": [
+        {
+            "code": "WLY02",
+            "state": "Labuan",
+            "city": "Labuan",
+            "lat": 5.275346,
+            "lng": 115.247346
+        }
+    ]
+}
