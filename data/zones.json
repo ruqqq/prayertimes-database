@@ -1731,11 +1731,12 @@
     ],
     "Denpasar": [
         {
-            "code": "66",
+            "code": "ID66",
             "state": "Bali",
             "city": "Denpasar",
             "lat": 8.6726769,
-            "lng": 115.1542327
+            "lng": 115.1542327,
+            "timezone": "Asia/Kuala_Lumpur"
         }
     ]
 }

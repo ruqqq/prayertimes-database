@@ -3,7 +3,7 @@
         "date": 1,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-04-30T21:04:02.101Z",
@@ -19,7 +19,7 @@
         "date": 2,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-01T21:04:02.102Z",
@@ -35,7 +35,7 @@
         "date": 3,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-02T21:04:02.102Z",
@@ -51,7 +51,7 @@
         "date": 4,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-03T21:04:02.102Z",
@@ -67,7 +67,7 @@
         "date": 5,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-04T21:04:02.102Z",
@@ -83,7 +83,7 @@
         "date": 6,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-05T21:04:02.103Z",
@@ -99,7 +99,7 @@
         "date": 7,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-06T21:04:02.103Z",
@@ -115,7 +115,7 @@
         "date": 8,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-07T21:04:02.103Z",
@@ -131,7 +131,7 @@
         "date": 9,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-08T21:04:02.103Z",
@@ -147,7 +147,7 @@
         "date": 10,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-09T21:04:02.103Z",
@@ -163,7 +163,7 @@
         "date": 11,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-10T21:04:02.104Z",
@@ -179,7 +179,7 @@
         "date": 12,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-11T21:04:02.104Z",
@@ -195,7 +195,7 @@
         "date": 13,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-12T21:04:02.104Z",
@@ -211,7 +211,7 @@
         "date": 14,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-13T21:04:02.104Z",
@@ -227,7 +227,7 @@
         "date": 15,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-14T21:04:02.105Z",
@@ -243,7 +243,7 @@
         "date": 16,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-15T21:04:02.105Z",
@@ -259,7 +259,7 @@
         "date": 17,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-16T21:04:02.105Z",
@@ -275,7 +275,7 @@
         "date": 18,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-17T21:05:02.106Z",
@@ -291,7 +291,7 @@
         "date": 19,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-18T21:05:02.106Z",
@@ -307,7 +307,7 @@
         "date": 20,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-19T21:05:02.106Z",
@@ -323,7 +323,7 @@
         "date": 21,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-20T21:05:02.107Z",
@@ -339,7 +339,7 @@
         "date": 22,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-21T21:05:02.107Z",
@@ -355,7 +355,7 @@
         "date": 23,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-22T21:05:02.107Z",
@@ -371,7 +371,7 @@
         "date": 24,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-23T21:05:02.107Z",
@@ -387,7 +387,7 @@
         "date": 25,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-24T21:05:02.108Z",
@@ -403,7 +403,7 @@
         "date": 26,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-25T21:05:02.108Z",
@@ -419,7 +419,7 @@
         "date": 27,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-26T21:05:02.108Z",
@@ -435,7 +435,7 @@
         "date": 28,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-27T21:06:02.109Z",
@@ -451,7 +451,7 @@
         "date": 29,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-28T21:06:02.109Z",
@@ -467,7 +467,7 @@
         "date": 30,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-29T21:06:02.110Z",
@@ -483,7 +483,7 @@
         "date": 31,
         "month": 5,
         "year": 2018,
-        "localityCode": "ID-66",
+        "localityCode": "MY-ID66",
         "source_id": 2,
         "times": [
             "2018-05-30T21:06:02.110Z",
