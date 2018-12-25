@@ -1615,7 +1615,7 @@
             "timezone": "Asia/Kuala_Lumpur"
         },
         {
-            "code": "SGR05",
+            "code": "SGR03",
             "state": "Selangor",
             "city": "Klang",
             "lat": 3.044917,
@@ -1623,7 +1623,7 @@
             "timezone": "Asia/Kuala_Lumpur"
         },
         {
-            "code": "SGR05",
+            "code": "SGR03",
             "state": "Selangor",
             "city": "Kuala Langat",
             "lat": 2.803828,
@@ -1699,27 +1699,23 @@
             "timezone": "Asia/Kuala_Lumpur"
         }
     ],
-    "Putrajaya": [
+    "Wilayah Persekutuan": [
         {
-            "code": "SGR04",
+            "code": "WLY01",
             "state": "Putrajaya",
             "city": "Putrajaya",
             "lat": 2.926361,
             "lng": 101.696445,
             "timezone": "Asia/Kuala_Lumpur"
-        }
-    ],
-    "Kuala Lumpur": [
+        },
         {
-            "code": "SGR03",
+            "code": "WLY01",
             "state": "Kuala Lumpur",
             "city": "Kuala Lumpur",
             "lat": 3.139003,
             "lng": 101.686855,
             "timezone": "Asia/Kuala_Lumpur"
-        }
-    ],
-    "Labuan": [
+        },
         {
             "code": "WLY02",
             "state": "Labuan",
@@ -1731,7 +1727,7 @@
     ],
     "Denpasar": [
         {
-            "code": "ID66",
+            "code": "5166",
             "state": "Bali",
             "city": "Denpasar",
             "lat": 8.6726769,

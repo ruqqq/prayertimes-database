@@ -1,0 +1,1130 @@
+{
+    "Johor": [
+        {
+            "code": "JHR01",
+            "state": "Johor",
+            "city": "Pulau Aur"
+        },
+        {
+            "code": "JHR01",
+            "state": "Johor",
+            "city": "Pulau Pemanggil"
+        },
+        {
+            "code": "JHR02",
+            "state": "Johor",
+            "city": "Johor Bahru"
+        },
+        {
+            "code": "JHR02",
+            "state": "Johor",
+            "city": "Kota Tinggi"
+        },
+        {
+            "code": "JHR02",
+            "state": "Johor",
+            "city": "Mersing"
+        },
+        {
+            "code": "JHR03",
+            "state": "Johor",
+            "city": "Kluang"
+        },
+        {
+            "code": "JHR03",
+            "state": "Johor",
+            "city": "Pontian"
+        },
+        {
+            "code": "JHR04",
+            "state": "Johor",
+            "city": "Batu Pahat"
+        },
+        {
+            "code": "JHR04",
+            "state": "Johor",
+            "city": "Muar"
+        },
+        {
+            "code": "JHR04",
+            "state": "Johor",
+            "city": "Segamat"
+        },
+        {
+            "code": "JHR04",
+            "state": "Johor",
+            "city": "Gemas Johor"
+        }
+    ],
+    "Kedah": [
+        {
+            "code": "KDH01",
+            "state": "Kedah",
+            "city": "Kota Setar"
+        },
+        {
+            "code": "KDH01",
+            "state": "Kedah",
+            "city": "Kubang Pasu"
+        },
+        {
+            "code": "KDH01",
+            "state": "Kedah",
+            "city": "Pokok Sena (Daerah Kecil)"
+        },
+        {
+            "code": "KDH02",
+            "state": "Kedah",
+            "city": "Kuala Muda"
+        },
+        {
+            "code": "KDH02",
+            "state": "Kedah",
+            "city": "Yan"
+        },
+        {
+            "code": "KDH02",
+            "state": "Kedah",
+            "city": "Pendang"
+        },
+        {
+            "code": "KDH03",
+            "state": "Kedah",
+            "city": "Padang Terap"
+        },
+        {
+            "code": "KDH03",
+            "state": "Kedah",
+            "city": "Sik"
+        },
+        {
+            "code": "KDH04",
+            "state": "Kedah",
+            "city": "Baling"
+        },
+        {
+            "code": "KDH05",
+            "state": "Kedah",
+            "city": "Bandar Baharu"
+        },
+        {
+            "code": "KDH05",
+            "state": "Kedah",
+            "city": "Kulim"
+        },
+        {
+            "code": "KDH06",
+            "state": "Kedah",
+            "city": "Langkawi"
+        },
+        {
+            "code": "KDH07",
+            "state": "Kedah",
+            "city": "Gunung Jerai"
+        }
+    ],
+    "Kelantan": [
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Bachok"
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Kota Bharu"
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Machang"
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Pasir Mas"
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Pasir Puteh"
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Tanah Merah"
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Tumpat"
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Kuala Krai"
+        },
+        {
+            "code": "KTN01",
+            "state": "Kelantan",
+            "city": "Mukim Chiku"
+        },
+        {
+            "code": "KTN03",
+            "state": "Kelantan",
+            "city": "Gua Musang (Daerah Galas Dan Bertam)"
+        },
+        {
+            "code": "KTN03",
+            "state": "Kelantan",
+            "city": "Jeli"
+        }
+    ],
+    "Melaka": [
+        {
+            "code": "MLK01",
+            "state": "Melaka",
+            "city": "SELURUH NEGERI MELAKA"
+        }
+    ],
+    "Negeri Sembilan": [
+        {
+            "code": "NGS01",
+            "state": "Negeri Sembilan",
+            "city": "Tampin"
+        },
+        {
+            "code": "NGS01",
+            "state": "Negeri Sembilan",
+            "city": "Jempol"
+        },
+        {
+            "code": "NGS02",
+            "state": "Negeri Sembilan",
+            "city": "Jelebu"
+        },
+        {
+            "code": "NGS02",
+            "state": "Negeri Sembilan",
+            "city": "Kuala Pilah"
+        },
+        {
+            "code": "NGS02",
+            "state": "Negeri Sembilan",
+            "city": "Port Dickson"
+        },
+        {
+            "code": "NGS02",
+            "state": "Negeri Sembilan",
+            "city": "Rembau"
+        },
+        {
+            "code": "NGS02",
+            "state": "Negeri Sembilan",
+            "city": "Seremban"
+        }
+    ],
+    "Pahang": [
+        {
+            "code": "PHG01",
+            "state": "Pahang",
+            "city": "Pulau Tioman"
+        },
+        {
+            "code": "PHG02",
+            "state": "Pahang",
+            "city": "Kuantan"
+        },
+        {
+            "code": "PHG02",
+            "state": "Pahang",
+            "city": "Pekan"
+        },
+        {
+            "code": "PHG02",
+            "state": "Pahang",
+            "city": "Rompin"
+        },
+        {
+            "code": "PHG02",
+            "state": "Pahang",
+            "city": "Muadzam Shah"
+        },
+        {
+            "code": "PHG03",
+            "state": "Pahang",
+            "city": "Jerantut"
+        },
+        {
+            "code": "PHG03",
+            "state": "Pahang",
+            "city": "Temerloh"
+        },
+        {
+            "code": "PHG03",
+            "state": "Pahang",
+            "city": "Maran"
+        },
+        {
+            "code": "PHG03",
+            "state": "Pahang",
+            "city": "Bera"
+        },
+        {
+            "code": "PHG03",
+            "state": "Pahang",
+            "city": "Chenor"
+        },
+        {
+            "code": "PHG03",
+            "state": "Pahang",
+            "city": "Jengka"
+        },
+        {
+            "code": "PHG04",
+            "state": "Pahang",
+            "city": "Bentong"
+        },
+        {
+            "code": "PHG04",
+            "state": "Pahang",
+            "city": "Lipis"
+        },
+        {
+            "code": "PHG04",
+            "state": "Pahang",
+            "city": "Raub"
+        },
+        {
+            "code": "PHG05",
+            "state": "Pahang",
+            "city": "Genting Sempah"
+        },
+        {
+            "code": "PHG05",
+            "state": "Pahang",
+            "city": "Janda Baik"
+        },
+        {
+            "code": "PHG05",
+            "state": "Pahang",
+            "city": "Bukit Tinggi"
+        },
+        {
+            "code": "PHG06",
+            "state": "Pahang",
+            "city": "Cameron Highlands"
+        },
+        {
+            "code": "PHG06",
+            "state": "Pahang",
+            "city": "Genting Higlands"
+        },
+        {
+            "code": "PHG06",
+            "state": "Pahang",
+            "city": "Bukit Fraser"
+        }
+    ],
+    "Perlis": [
+        {
+            "code": "PLS01",
+            "state": "Perlis",
+            "city": "Kangar"
+        },
+        {
+            "code": "PLS01",
+            "state": "Perlis",
+            "city": "Padang Besar"
+        },
+        {
+            "code": "PLS01",
+            "state": "Perlis",
+            "city": "Arau"
+        }
+    ],
+    "Pulau Pinang": [
+        {
+            "code": "PNG01",
+            "state": "Pulau Pinang",
+            "city": "Seluruh Negeri Pulau Pinang"
+        }
+    ],
+    "Perak": [
+        {
+            "code": "PRK01",
+            "state": "Perak",
+            "city": "Tapah"
+        },
+        {
+            "code": "PRK01",
+            "state": "Perak",
+            "city": "Slim River"
+        },
+        {
+            "code": "PRK01",
+            "state": "Perak",
+            "city": "Tanjung Malim"
+        },
+        {
+            "code": "PRK02",
+            "state": "Perak",
+            "city": "Kuala Kangsar"
+        },
+        {
+            "code": "PRK02",
+            "state": "Perak",
+            "city": "Sg. Siput (Daerah Kecil)"
+        },
+        {
+            "code": "PRK02",
+            "state": "Perak",
+            "city": "Ipoh"
+        },
+        {
+            "code": "PRK02",
+            "state": "Perak",
+            "city": "Batu Gajah"
+        },
+        {
+            "code": "PRK02",
+            "state": "Perak",
+            "city": "Kampar"
+        },
+        {
+            "code": "PRK03",
+            "state": "Perak",
+            "city": "Lenggong"
+        },
+        {
+            "code": "PRK03",
+            "state": "Perak",
+            "city": "Pengkalan Hulu"
+        },
+        {
+            "code": "PRK03",
+            "state": "Perak",
+            "city": "Grik"
+        },
+        {
+            "code": "PRK04",
+            "state": "Perak",
+            "city": "Temengor"
+        },
+        {
+            "code": "PRK04",
+            "state": "Perak",
+            "city": "Belum"
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Kg Gajah"
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Teluk Intan"
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Bagan Datuk"
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Seri Iskandar"
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Beruas"
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Parit"
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Lumut"
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Sitiawan"
+        },
+        {
+            "code": "PRK05",
+            "state": "Perak",
+            "city": "Pulau Pangkor"
+        },
+        {
+            "code": "PRK06",
+            "state": "Perak",
+            "city": "Selama"
+        },
+        {
+            "code": "PRK06",
+            "state": "Perak",
+            "city": "Taiping"
+        },
+        {
+            "code": "PRK06",
+            "state": "Perak",
+            "city": "Bagan Serai"
+        },
+        {
+            "code": "PRK06",
+            "state": "Perak",
+            "city": "Parit Buntar"
+        },
+        {
+            "code": "PRK07",
+            "state": "Perak",
+            "city": "Bukit Larut"
+        }
+    ],
+    "Sabah": [
+        {
+            "code": "SBH01",
+            "state": "Sabah",
+            "city": "Bahagian Sandakan (Timur)"
+        },
+        {
+            "code": "SBH01",
+            "state": "Sabah",
+            "city": "Bukit Garam"
+        },
+        {
+            "code": "SBH01",
+            "state": "Sabah",
+            "city": "Semawang"
+        },
+        {
+            "code": "SBH01",
+            "state": "Sabah",
+            "city": "Temanggong"
+        },
+        {
+            "code": "SBH01",
+            "state": "Sabah",
+            "city": "Tambisan"
+        },
+        {
+            "code": "SBH01",
+            "state": "Sabah",
+            "city": "Bandar Sandakan"
+        },
+        {
+            "code": "SBH01",
+            "state": "Sabah",
+            "city": "Sukau"
+        },
+        {
+            "code": "SBH02",
+            "state": "Sabah",
+            "city": "Beluran"
+        },
+        {
+            "code": "SBH02",
+            "state": "Sabah",
+            "city": "Telupid"
+        },
+        {
+            "code": "SBH02",
+            "state": "Sabah",
+            "city": "Pinangah"
+        },
+        {
+            "code": "SBH02",
+            "state": "Sabah",
+            "city": "Terusan"
+        },
+        {
+            "code": "SBH02",
+            "state": "Sabah",
+            "city": "Kuamut"
+        },
+        {
+            "code": "SBH02",
+            "state": "Sabah",
+            "city": "Bahagian Sandakan (Barat)"
+        },
+        {
+            "code": "SBH03",
+            "state": "Sabah",
+            "city": "Lahad Datu"
+        },
+        {
+            "code": "SBH03",
+            "state": "Sabah",
+            "city": "Silabukan"
+        },
+        {
+            "code": "SBH03",
+            "state": "Sabah",
+            "city": "Kunak"
+        },
+        {
+            "code": "SBH03",
+            "state": "Sabah",
+            "city": "Sahabat"
+        },
+        {
+            "code": "SBH03",
+            "state": "Sabah",
+            "city": "Semporna"
+        },
+        {
+            "code": "SBH03",
+            "state": "Sabah",
+            "city": "Tungku"
+        },
+        {
+            "code": "SBH03",
+            "state": "Sabah",
+            "city": "Bahagian Tawau  (Timur)"
+        },
+        {
+            "code": "SBH04",
+            "state": "Sabah",
+            "city": "Bandar Tawau"
+        },
+        {
+            "code": "SBH04",
+            "state": "Sabah",
+            "city": "Balong"
+        },
+        {
+            "code": "SBH04",
+            "state": "Sabah",
+            "city": "Merotai"
+        },
+        {
+            "code": "SBH04",
+            "state": "Sabah",
+            "city": "Kalabakan"
+        },
+        {
+            "code": "SBH04",
+            "state": "Sabah",
+            "city": "Bahagian Tawau (Barat)"
+        },
+        {
+            "code": "SBH05",
+            "state": "Sabah",
+            "city": "Kudat"
+        },
+        {
+            "code": "SBH05",
+            "state": "Sabah",
+            "city": "Kota Marudu"
+        },
+        {
+            "code": "SBH05",
+            "state": "Sabah",
+            "city": "Pitas"
+        },
+        {
+            "code": "SBH05",
+            "state": "Sabah",
+            "city": "Pulau Banggi"
+        },
+        {
+            "code": "SBH05",
+            "state": "Sabah",
+            "city": "Bahagian Kudat"
+        },
+        {
+            "code": "SBH06",
+            "state": "Sabah",
+            "city": "Gunung Kinabalu"
+        },
+        {
+            "code": "SBH07",
+            "state": "Sabah",
+            "city": "Kota Kinabalu"
+        },
+        {
+            "code": "SBH07",
+            "state": "Sabah",
+            "city": "Ranau"
+        },
+        {
+            "code": "SBH07",
+            "state": "Sabah",
+            "city": "Kota Belud"
+        },
+        {
+            "code": "SBH07",
+            "state": "Sabah",
+            "city": "Tuaran"
+        },
+        {
+            "code": "SBH07",
+            "state": "Sabah",
+            "city": "Penampang"
+        },
+        {
+            "code": "SBH07",
+            "state": "Sabah",
+            "city": "Papar"
+        },
+        {
+            "code": "SBH07",
+            "state": "Sabah",
+            "city": "Putatan"
+        },
+        {
+            "code": "SBH07",
+            "state": "Sabah",
+            "city": "Bahagian Pantai Barat"
+        },
+        {
+            "code": "SBH08",
+            "state": "Sabah",
+            "city": "Pensiangan"
+        },
+        {
+            "code": "SBH08",
+            "state": "Sabah",
+            "city": "Keningau"
+        },
+        {
+            "code": "SBH08",
+            "state": "Sabah",
+            "city": "Tambunan"
+        },
+        {
+            "code": "SBH08",
+            "state": "Sabah",
+            "city": "Nabawan"
+        },
+        {
+            "code": "SBH08",
+            "state": "Sabah",
+            "city": "Bahagian Pendalaman (Atas)"
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Beaufort"
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Kuala Penyu"
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Sipitang"
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Tenom"
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Long Pa Sia"
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Membakut"
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Weston"
+        },
+        {
+            "code": "SBH09",
+            "state": "Sabah",
+            "city": "Bahagian Pendalaman (Bawah)"
+        }
+    ],
+    "Selangor": [
+        {
+            "code": "SGR01",
+            "state": "Selangor",
+            "city": "Gombak"
+        },
+        {
+            "code": "SGR01",
+            "state": "Selangor",
+            "city": "Petaling"
+        },
+        {
+            "code": "SGR01",
+            "state": "Selangor",
+            "city": "Sepang"
+        },
+        {
+            "code": "SGR01",
+            "state": "Selangor",
+            "city": "Hulu Langat"
+        },
+        {
+            "code": "SGR01",
+            "state": "Selangor",
+            "city": "Hulu Selangor"
+        },
+        {
+            "code": "SGR01",
+            "state": "Selangor",
+            "city": "Rawang"
+        },
+        {
+            "code": "SGR01",
+            "state": "Selangor",
+            "city": "S.Alam"
+        },
+        {
+            "code": "SGR02",
+            "state": "Selangor",
+            "city": "Kuala Selangor"
+        },
+        {
+            "code": "SGR02",
+            "state": "Selangor",
+            "city": "Sabak Bernam"
+        },
+        {
+            "code": "SGR03",
+            "state": "Selangor",
+            "city": "Klang"
+        },
+        {
+            "code": "SGR03",
+            "state": "Selangor",
+            "city": "Kuala Langat"
+        }
+    ],
+    "Sarawak": [
+        {
+            "code": "SWK01",
+            "state": "Sarawak",
+            "city": "Limbang"
+        },
+        {
+            "code": "SWK01",
+            "state": "Sarawak",
+            "city": "Lawas"
+        },
+        {
+            "code": "SWK01",
+            "state": "Sarawak",
+            "city": "Sundar"
+        },
+        {
+            "code": "SWK01",
+            "state": "Sarawak",
+            "city": "Trusan"
+        },
+        {
+            "code": "SWK02",
+            "state": "Sarawak",
+            "city": "Miri"
+        },
+        {
+            "code": "SWK02",
+            "state": "Sarawak",
+            "city": "Niah"
+        },
+        {
+            "code": "SWK02",
+            "state": "Sarawak",
+            "city": "Bekenu"
+        },
+        {
+            "code": "SWK02",
+            "state": "Sarawak",
+            "city": "Sibuti"
+        },
+        {
+            "code": "SWK02",
+            "state": "Sarawak",
+            "city": "Marudi"
+        },
+        {
+            "code": "SWK03",
+            "state": "Sarawak",
+            "city": "Pandan"
+        },
+        {
+            "code": "SWK03",
+            "state": "Sarawak",
+            "city": "Belaga"
+        },
+        {
+            "code": "SWK03",
+            "state": "Sarawak",
+            "city": "Suai"
+        },
+        {
+            "code": "SWK03",
+            "state": "Sarawak",
+            "city": "Tatau"
+        },
+        {
+            "code": "SWK03",
+            "state": "Sarawak",
+            "city": "Sebauh"
+        },
+        {
+            "code": "SWK03",
+            "state": "Sarawak",
+            "city": "Bintulu"
+        },
+        {
+            "code": "SWK04",
+            "state": "Sarawak",
+            "city": "Sibu"
+        },
+        {
+            "code": "SWK04",
+            "state": "Sarawak",
+            "city": "Mukah"
+        },
+        {
+            "code": "SWK04",
+            "state": "Sarawak",
+            "city": "Dalat"
+        },
+        {
+            "code": "SWK04",
+            "state": "Sarawak",
+            "city": "Song"
+        },
+        {
+            "code": "SWK04",
+            "state": "Sarawak",
+            "city": "Igan"
+        },
+        {
+            "code": "SWK04",
+            "state": "Sarawak",
+            "city": "Oya"
+        },
+        {
+            "code": "SWK04",
+            "state": "Sarawak",
+            "city": "Balingian"
+        },
+        {
+            "code": "SWK04",
+            "state": "Sarawak",
+            "city": "Kanowit"
+        },
+        {
+            "code": "SWK04",
+            "state": "Sarawak",
+            "city": "Kapit"
+        },
+        {
+            "code": "SWK05",
+            "state": "Sarawak",
+            "city": "Sarikei"
+        },
+        {
+            "code": "SWK05",
+            "state": "Sarawak",
+            "city": "Matu"
+        },
+        {
+            "code": "SWK05",
+            "state": "Sarawak",
+            "city": "Julau"
+        },
+        {
+            "code": "SWK05",
+            "state": "Sarawak",
+            "city": "Rajang"
+        },
+        {
+            "code": "SWK05",
+            "state": "Sarawak",
+            "city": "Daro"
+        },
+        {
+            "code": "SWK05",
+            "state": "Sarawak",
+            "city": "Bintangor"
+        },
+        {
+            "code": "SWK05",
+            "state": "Sarawak",
+            "city": "Belawai"
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Lubok Antu"
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Sri Aman"
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Roban"
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Debak"
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Kabong"
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Lingga"
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Engkelili"
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Betong"
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Spaoh"
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Pusa"
+        },
+        {
+            "code": "SWK06",
+            "state": "Sarawak",
+            "city": "Saratok"
+        },
+        {
+            "code": "SWK07",
+            "state": "Sarawak",
+            "city": "Serian"
+        },
+        {
+            "code": "SWK07",
+            "state": "Sarawak",
+            "city": "Simunjan"
+        },
+        {
+            "code": "SWK07",
+            "state": "Sarawak",
+            "city": "Samarahan"
+        },
+        {
+            "code": "SWK07",
+            "state": "Sarawak",
+            "city": "Sebuyau"
+        },
+        {
+            "code": "SWK07",
+            "state": "Sarawak",
+            "city": "Meludam"
+        },
+        {
+            "code": "SWK08",
+            "state": "Sarawak",
+            "city": "Kuching"
+        },
+        {
+            "code": "SWK08",
+            "state": "Sarawak",
+            "city": "Bau"
+        },
+        {
+            "code": "SWK08",
+            "state": "Sarawak",
+            "city": "Lundu"
+        },
+        {
+            "code": "SWK08",
+            "state": "Sarawak",
+            "city": "Sematan"
+        },
+        {
+            "code": "SWK09",
+            "state": "Sarawak",
+            "city": "Zon Khas (Kampung Patarikan)"
+        }
+    ],
+    "Terengganu": [
+        {
+            "code": "TRG01",
+            "state": "Terengganu",
+            "city": "Kuala Terengganu"
+        },
+        {
+            "code": "TRG01",
+            "state": "Terengganu",
+            "city": "Marang"
+        },
+        {
+            "code": "TRG01",
+            "state": "Terengganu",
+            "city": "Kuala Nerus"
+        },
+        {
+            "code": "TRG02",
+            "state": "Terengganu",
+            "city": "Besut"
+        },
+        {
+            "code": "TRG02",
+            "state": "Terengganu",
+            "city": "Setiu"
+        },
+        {
+            "code": "TRG03",
+            "state": "Terengganu",
+            "city": "Hulu Terengganu"
+        },
+        {
+            "code": "TRG04",
+            "state": "Terengganu",
+            "city": "Dungun"
+        },
+        {
+            "code": "TRG04",
+            "state": "Terengganu",
+            "city": "Kemaman"
+        }
+    ],
+    "Wilayah Persekutuan": [
+        {
+            "code": "WLY01",
+            "state": "Wilayah Persekutuan",
+            "city": "Kuala Lumpur"
+        },
+        {
+            "code": "WLY01",
+            "state": "Wilayah Persekutuan",
+            "city": "Putrajaya"
+        },
+        {
+            "code": "WLY02",
+            "state": "Wilayah Persekutuan",
+            "city": "Labuan"
+        }
+    ]
+}

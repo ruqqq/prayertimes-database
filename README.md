@@ -6,6 +6,9 @@ Flat file + JSON database to make prayer times data (location and timings) readi
 IMPORTANT: Refer to [LICENSE](https://raw.githubusercontent.com/ruqqq/prayertimes-database/master/LICENSE) for terms of use.
 
 # Changelogs
+**25/12/2018**
+Add timings for 2019 and groundwork for Indonesia's timings. MY 2019 timings are directly taken from Jakim E-Solat.
+
 **17/03/2018**
 Add timings MY for 2018. Data is built on the work by [Azan Pro](http://api.azanpro.com/).
 
