@@ -203,6 +203,72 @@ function publishToData() {
   });
 }
 
+async function getHijri(year) {
+  const body = await request.post({
+    url: `https://www.e-solat.gov.my/index.php?r=esolatApi/takwimsolat&period=duration&zone=JHR01`,
+    form: {
+      datestart: `${year}-01-01`,
+      dateend: `${year}-12-31`,
+    },
+    json: true,
+  });
+
+  const hijris = [];
+  let hijriForMonth = [];
+  let currentMonth = 'Jan';
+  for (let item of body.prayerTime) {
+    const dateSplit = item.date.split('-');
+    const month = dateSplit[1];
+    if (currentMonth !== month) {
+      hijris.push(hijriForMonth);
+      hijriForMonth = [];
+      currentMonth = month;
+    }
+
+    const hijriSplit = item.hijri.split('-');
+    const hijriDate = parseInt(hijriSplit[2]);
+    const hijriMonth = parseInt(hijriSplit[1]);
+    const hijriYear = parseInt(hijriSplit[0]);
+
+    const momentDate = moment().set({
+      date: dateSplit[0],
+      month: dateSplit[1],
+      year: dateSplit[2],
+    });
+
+    hijriForMonth.push({
+      "hijriDate": hijriDate,
+      "hijriMonth": hijriMonth,
+      "hijriYear": hijriYear,
+      "date": momentDate.get('date'),
+      "month": momentDate.get('month') + 1,
+      "year": momentDate.get('year'),
+      "localityCode": "SG-1",
+      "source_id": 1
+    });
+  }
+
+  hijris.push(hijriForMonth);
+
+  return hijris;
+}
+
+async function publishHijriData(year) {
+  const hijris = await getHijri(year);
+
+  const filename = `../hijri/${year}/SG-1.json`;
+
+  mkdirSyncRecursive(`../hijri/${year}`);
+
+  fs.writeFile(filename, JSON.stringify(hijris, null, 4), (err) => {
+    // throws an error, you could also catch it here
+    if (err) throw err;
+
+    // success case, the file was saved
+    console.log(filename + ' saved!');
+  });
+}
+
 function timeStrToMoment(date, month, year, time) {
   const m = moment().set({
     date: date,
@@ -232,4 +298,5 @@ function mkdirSyncRecursive(directory) {
 
 // fetchZones();
 // getPrayertimes(2019);
-publishToData();
+publishHijriData(2019);
+// publishToData();
