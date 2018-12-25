@@ -96,7 +96,7 @@ function getPrayertimes(year) {
             const dateSplit = item.date.split('-');
             const momentDate = moment().set({
               date: dateSplit[0],
-              month: dateSplit[1],
+              month: msMonthToEn(dateSplit[1]),
               year: dateSplit[2],
             });
 
@@ -223,7 +223,7 @@ async function getHijri(year) {
 
     const momentDate = moment().set({
       date: dateSplit[0],
-      month: dateSplit[1],
+      month: msMonthToEn(dateSplit[1]),
       year: dateSplit[2],
     });
 
@@ -276,6 +276,15 @@ function timeStrToMoment(date, month, year, time) {
   });
 
   return m;
+}
+
+function msMonthToEn(month) {
+  return month
+      .replace('Mac', 'Mar')
+      .replace('Mei', 'May')
+      .replace('Ogos', 'Aug')
+      .replace('Okt', 'Oct')
+      .replace('Dis', 'Dec');
 }
 
 function mkdirSyncRecursive(directory) {
