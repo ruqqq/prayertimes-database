@@ -91,6 +91,7 @@ function getPrayertimes(year) {
 
           let prayertimesDays = [];
 
+          let currentMonth = 'Jan';
           for (let item of body.prayerTime) {
             const dateSplit = item.date.split('-');
             const momentDate = moment().set({
@@ -101,6 +102,12 @@ function getPrayertimes(year) {
 
             const date = momentDate.get('date');
             const month = momentDate.get('month') + 1;
+
+            if (dateSplit[1] !== currentMonth) {
+              prayertimesMonths.push(prayertimesDays);
+              prayertimesDays = [];
+              currentMonth = dateSplit[1];
+            }
 
             prayertimesDays.push({
               date: date,
@@ -162,6 +169,8 @@ function publishToData() {
           const year = parsedJSON[0][0].year;
           const dirname = `../data/MY/${cityData.code}/${year}`;
 
+          console.log(cityData.code, parsedJSON.length);
+
           for (let month in parsedJSON) {
             const filename = `${dirname}/${parseInt(month)+1}.json`;
 
@@ -177,24 +186,6 @@ function publishToData() {
               console.log(filename + ' saved!');
             });
           }
-
-          let filename = `${dirname}.json`;
-          fs.writeFile(filename, JSON.stringify(parsedJSON, null, 4), (err) => {  
-            // throws an error, you could also catch it here
-            if (err) throw err;
-
-            // success case, the file was saved
-            console.log(filename + ' saved!');
-          });
-
-          filename = `../data/MY/${cityData.code}.json`;
-          fs.writeFile(filename, JSON.stringify({[year]: parsedJSON}, null, 4), (err) => {  
-            // throws an error, you could also catch it here
-            if (err) throw err;
-
-            // success case, the file was saved
-            console.log(filename + ' saved!');
-          });
         });
 
         fetchedCodes.push(cityData.code);
@@ -298,5 +289,5 @@ function mkdirSyncRecursive(directory) {
 
 // fetchZones();
 // getPrayertimes(2019);
-publishHijriData(2019);
-// publishToData();
+// publishHijriData(2019);
+publishToData();
