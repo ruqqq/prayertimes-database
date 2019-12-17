@@ -120,7 +120,7 @@
         {
             "code": "KDH07",
             "state": "Kedah",
-            "city": "Gunung Jerai"
+            "city": "Puncak Gunung Jerai"
         }
     ],
     "Kelantan": [
@@ -774,11 +774,6 @@
             "code": "SGR01",
             "state": "Selangor",
             "city": "Hulu Selangor"
-        },
-        {
-            "code": "SGR01",
-            "state": "Selangor",
-            "city": "Rawang"
         },
         {
             "code": "SGR01",

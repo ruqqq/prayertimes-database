@@ -72,7 +72,7 @@ function getPrayertimes(year) {
           continue;
         }
 
-        const prayertimesCityJSONPath = `../sources/jakim_esolat_prayertimes_${cityData.code}.json`;
+        const prayertimesCityJSONPath = `../sources/jakim_esolat_prayertimes_${cityData.code}_${year}.json`;
         if (fs.existsSync(prayertimesCityJSONPath)) {
           continue;
         }
@@ -150,7 +150,9 @@ function getPrayertimes(year) {
 }
 
 
-function publishToData() {
+function publishToData(year) {
+  year = parseInt(year);
+
   fs.readFile('../sources/jakim_esolat_zones.json', async (err, data) => {
     const zonesJSON = JSON.parse(data);
 
@@ -162,7 +164,7 @@ function publishToData() {
           continue;
         }
 
-        fs.readFile(`../sources/jakim_esolat_prayertimes_${cityData.code}.json`, (err, data) => {
+        fs.readFile(`../sources/jakim_esolat_prayertimes_${cityData.code}_${year}.json`, (err, data) => {
           if (err) throw err;
 
           let parsedJSON = JSON.parse(data);
@@ -297,6 +299,6 @@ function mkdirSyncRecursive(directory) {
 }
 
 // fetchZones();
-// getPrayertimes(2019);
-// publishHijriData(2019);
-publishToData();
+// getPrayertimes(2020);
+// publishHijriData(2020);
+publishToData(2020);
