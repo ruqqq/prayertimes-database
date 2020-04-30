@@ -58,7 +58,7 @@ async function fetchZones() {
   });
 }
 
-function getPrayertimes(year) {
+function getPrayertimes(year, force) {
   year = parseInt(year);
 
   fs.readFile('../sources/jakim_esolat_zones.json', async (err, data) => {
@@ -73,7 +73,7 @@ function getPrayertimes(year) {
         }
 
         const prayertimesCityJSONPath = `../sources/jakim_esolat_prayertimes_${cityData.code}_${year}.json`;
-        if (fs.existsSync(prayertimesCityJSONPath)) {
+        if (!force && fs.existsSync(prayertimesCityJSONPath)) {
           continue;
         }
 
@@ -180,7 +180,7 @@ function publishToData(year) {
                 mkdirSyncRecursive(dirname);
             }
 
-            fs.writeFile(filename, JSON.stringify(parsedJSON[month], null, 4), (err) => {  
+            fs.writeFile(filename, JSON.stringify(parsedJSON[month], null, 4), (err) => {
               // throws an error, you could also catch it here
               if (err) throw err;
 
@@ -300,5 +300,6 @@ function mkdirSyncRecursive(directory) {
 
 // fetchZones();
 // getPrayertimes(2020);
+// getPrayertimes(2020, true);
 // publishHijriData(2020);
 publishToData(2020);
