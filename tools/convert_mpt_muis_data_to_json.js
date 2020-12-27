@@ -16,7 +16,7 @@ function parseTime(day, month, year, time, prayer_id) {
   return new Date(iso8601);
 }
 
-var contents = fs.readFileSync('../sources/mpt_muis_provider_2020.csv', 'utf8');
+var contents = fs.readFileSync('../sources/tabula_muis_2021.csv', 'utf8');
 var parsed = parse(contents, {delimiter: ','});
 var output = {};
 
@@ -26,7 +26,7 @@ for (var item of parsed) {
   var year = parseInt(date[2]);
   var month = parseInt(date[1]);
   var day = parseInt(date[0]);
-  
+
   if (!output[year]) {
     output[year] = {};
   }
