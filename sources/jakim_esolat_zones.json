@@ -178,6 +178,11 @@
             "code": "KTN03",
             "state": "Kelantan",
             "city": "Jeli"
+        },
+        {
+            "code": "KTN03",
+            "state": "Kelantan",
+            "city": "Jajahan Kecil Lojing"
         }
     ],
     "Melaka": [
@@ -374,7 +379,7 @@
         {
             "code": "PRK02",
             "state": "Perak",
-            "city": "Sg. Siput (Daerah Kecil)"
+            "city": "Sg. Siput"
         },
         {
             "code": "PRK02",
