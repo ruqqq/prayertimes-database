@@ -299,7 +299,7 @@ function mkdirSyncRecursive(directory) {
 }
 
 // fetchZones();
-// getPrayertimes(2021);
-// getPrayertimes(2021, true);
-// publishHijriData(2021);
-publishToData(2021);
+// getPrayertimes(2022);
+// getPrayertimes(2022, true);
+// publishHijriData(2022);
+publishToData(2022);
