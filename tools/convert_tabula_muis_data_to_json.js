@@ -1,4 +1,3 @@
-// Data acquired from: https://github.com/MalaysiaPrayerTimes/provider-muis/tree/master/src/Mpt/Providers/Muis/Resources
 var fs = require('fs');
 var parse = require('csv-parse/lib/sync');
 
