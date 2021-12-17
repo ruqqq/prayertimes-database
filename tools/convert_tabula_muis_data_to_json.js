@@ -15,38 +15,46 @@ function parseTime(day, month, year, time, prayer_id) {
   return new Date(iso8601);
 }
 
-var contents = fs.readFileSync('../sources/tabula_muis_2021.csv', 'utf8');
+var contents = fs.readFileSync('../sources/tabula_muis_2022.csv', 'utf8');
 var parsed = parse(contents, {delimiter: ','});
 var output = {};
 
 // Iterate the parsed CSV and construct our JSON data
 for (var item of parsed) {
-  var date = item[0].split('/');
-  var year = parseInt(date[2]);
-  var month = parseInt(date[1]);
-  var day = parseInt(date[0]);
+  try {
+    if (item[0] === "Date") {
+      continue;
+    }
+    var date = item[0].split('/');
+    var year = parseInt(date[2]);
+    var month = parseInt(date[1]);
+    var day = parseInt(date[0]);
 
-  if (!output[year]) {
-    output[year] = {};
-  }
-  if (!output[year][month]) {
-    output[year][month] = {};
-  }
+    if (!output[year]) {
+      output[year] = {};
+    }
+    if (!output[year][month]) {
+      output[year][month] = {};
+    }
 
-  var times = [];
-  for (var i = 0; i < 6; i++) {
-    times.push(parseTime(day, month, year, item[i + 2], i).toISOString());
-  }
+    var times = [];
+    for (var i = 0; i < 6; i++) {
+      times.push(parseTime(day, month, year, item[i + 2], i).toISOString());
+    }
 
-  output[year][month][day] = {
-    date: day,
-    month: month,
-    year: year,
-    localityCode: 'SG-1',
-    source_id: 0,
-    times: times,
-    updated: new Date().toISOString()
-  };
+    output[year][month][day] = {
+      date: day,
+      month: month,
+      year: year,
+      localityCode: 'SG-1',
+      source_id: 0,
+      times: times,
+      updated: new Date().toISOString()
+    };
+  } catch (e) {
+    console.error("CSV line with error:", item)
+    console.error(e);
+  }
 }
 
 // Convert objects to array except for years
