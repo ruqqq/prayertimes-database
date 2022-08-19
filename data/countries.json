@@ -210,6 +210,26 @@
       {
         "code": "92",
         "name": "Irian Jaya Barat"
+      },
+      {
+        "code": "31",
+        "name": "Jakarta Barat"
+      },
+      {
+        "code": "31",
+        "name": "Jakarta Pusat"
+      },
+      {
+        "code": "31",
+        "name": "Jakarta Selatan"
+      },
+      {
+        "code": "31",
+        "name": "Jakarta Timur"
+      },
+      {
+        "code": "31",
+        "name": "Jakarta Utara"
       }
     ]
   }
