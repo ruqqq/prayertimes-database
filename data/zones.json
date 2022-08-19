@@ -1734,47 +1734,5 @@
             "lng": 115.1542327,
             "timezone": "Asia/Kuala_Lumpur"
         }
-    ],
-    "Jakarta": [
-        {
-            "code": "31309",
-            "state": "Jakarta",
-            "city": "Jakarta Barat",
-            "lat": 8.6726769,
-            "lng": 115.1542327,
-            "timezone": "Asia/Jakarta"
-        },
-        {
-            "code": "31308",
-            "state": "Jakarta",
-            "city": "Jakarta Pusat",
-            "lat": 8.6726769,
-            "lng": 115.1542327,
-            "timezone": "Asia/Jakarta"
-        },
-        {
-            "code": "31310",
-            "state": "Jakarta",
-            "city": "Jakarta Selatan",
-            "lat": 8.6726769,
-            "lng": 115.1542327,
-            "timezone": "Asia/Jakarta"
-        },
-        {
-            "code": "31311",
-            "state": "Jakarta",
-            "city": "Jakarta Timur",
-            "lat": 8.6726769,
-            "lng": 115.1542327,
-            "timezone": "Asia/Jakarta"
-        },
-        {
-            "code": "31312",
-            "state": "Jakarta",
-            "city": "Jakarta Utara",
-            "lat": 8.6726769,
-            "lng": 115.1542327,
-            "timezone": "Asia/Jakarta"
-        },
     ]
 }

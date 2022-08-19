@@ -39,8 +39,13 @@ async function getPrayertimes(cityId, year) {
         prayertimesMonths.push(prayertimesDays);
     }
 
-    fs.writeFileSync(`../sources/jadwal_sholat_prayertimes_${cityId}.json`, JSON.stringify(prayertimesMonths, null, 4));
-    console.log('prayertimes saved!');
+    fs.writeFile(`../sources/jadwal_sholat_prayertimes_${cityId}.json`, JSON.stringify(prayertimesMonths, null, 4), (err) => {
+        // throws an error, you could also catch it here
+        if (err) throw err;
+
+        // success case, the file was saved
+        console.log('prayertimes saved!');
+    });
 }
 
 function timeStrToMoment(date, month, year, time) {
@@ -117,16 +122,13 @@ function mkdirSyncRecursive(directory) {
 
 const countries = JSON.parse(fs.readFileSync('../data/countries.json'));
 countries[2].states.forEach(async (state) => {
-    if (state.code !== '31') {
+    if (state.code !== '51') {
         return;
     }
     console.log(state);
 
     const stateCode = parseInt(state.code);
 
-    const promises = [308, 309, 310, 311, 312].map(async cityId => {
-        await getPrayertimes(cityId, 2022);
-        publishToData(stateCode, cityId);
-    });
-    await Promise.all(promises);
+    await getPrayertimes(66, 2019);
+    publishToData(stateCode, 66);
 });
