@@ -22,7 +22,7 @@ async function getPrayertimes(stateCode, cityId, year) {
                 date: date,
                 month: month,
                 year: year,
-                localityCode: `ID-${stateCode}${cityId}`,
+                localityCode: `MY-ID${stateCode}${cityId}`,
                 source_id: 2,
                 times: [
                     timeStrToMoment(date, month, year, $(tds.get(2)).text()),
@@ -67,7 +67,7 @@ function publishToData(stateId, cityId) {
 
         let parsedJSON = JSON.parse(data);
         const year = parsedJSON[0][0].year;
-        const dirname = `../data/ID/${stateId}${cityId}/${year}`;
+        const dirname = `../data/MY/ID${stateId}${cityId}/${year}`;
 
         for (let month in parsedJSON) {
             const filename = `${dirname}/${parseInt(month)+1}.json`;
@@ -94,7 +94,7 @@ function publishToData(stateId, cityId) {
             console.log(filename + ' saved!');
         });
 
-        filename = `../data/ID/${stateId}${cityId}.json`;
+        filename = `../data/MY/ID${stateId}${cityId}.json`;
         fs.writeFile(filename, JSON.stringify({[year]: parsedJSON}, null, 4), (err) => {
             // throws an error, you could also catch it here
             if (err) throw err;
