@@ -4,6 +4,7 @@
     "csv-parse": "^4.4.6",
     "jest": "^23.0.0",
     "moment": "^2.22.2",
+    "moment-timezone": "^0.5.34",
     "mysql": "^2.14.0",
     "request": "^2.85.0",
     "request-promise-native": "^1.0.5"

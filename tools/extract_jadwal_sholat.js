@@ -1,9 +1,10 @@
 const request = require('request-promise-native');
-const moment = require('moment');
+const moment = require('moment-timezone');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
 let baseUrl = "https://jadwalsholat.org/adzan/monthly.php";
+moment.tz.setDefault("Asia/Jakarta");
 
 async function getPrayertimes(stateCode, cityId, year) {
     const prayertimesMonths = [];
