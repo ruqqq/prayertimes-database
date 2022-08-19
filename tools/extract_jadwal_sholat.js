@@ -5,7 +5,7 @@ const fs = require('fs');
 
 let baseUrl = "https://jadwalsholat.org/adzan/monthly.php";
 
-async function getPrayertimes(cityId, year) {
+async function getPrayertimes(stateCode, cityId, year) {
     const prayertimesMonths = [];
 
     for (var month = 1; month < 13; month++) {
@@ -22,7 +22,7 @@ async function getPrayertimes(cityId, year) {
                 date: date,
                 month: month,
                 year: year,
-                localityCode: `ID-${cityId}`,
+                localityCode: `ID-${stateCode}${cityId}`,
                 source_id: 2,
                 times: [
                     timeStrToMoment(date, month, year, $(tds.get(2)).text()),
@@ -125,7 +125,7 @@ countries[2].states.forEach(async (state) => {
     const stateCode = parseInt(state.code);
 
     const promises = [308, 309, 310, 311, 312].map(async cityId => {
-        await getPrayertimes(cityId, 2022);
+        await getPrayertimes(stateCode, cityId, 2022);
         publishToData(stateCode, cityId);
     });
     await Promise.all(promises);
