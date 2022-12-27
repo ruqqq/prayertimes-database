@@ -10,20 +10,20 @@ describe('Validate data', () => {
                 let localityCode;
 
                 if (k === "Singapore") {
-                    data = getPrayerTimes("SG", "1", 2022);
+                    data = getPrayerTimes("SG", "1", 2023);
                     localityCode = "SG-1";
                 } else if (k === "Denpasar") {
                     // continue
                     return;
                 } else {
-                    data = getPrayerTimes("MY", zone.code, 2022);
+                    data = getPrayerTimes("MY", zone.code, 2023);
                     localityCode = `MY-${zone.code}`;
                 }
 
                 it("has 12 months", () => assertHas12MonthsOfData(data));
                 it("has valid 12 months", () => assertHasValid12Months(data));
                 it("has valid days in months", () => assertHasValidDaysInMonth(data));
-                it("has valid data in days", () => assertHasValidDataInDays(data, 2022, localityCode));
+                it("has valid data in days", () => assertHasValidDataInDays(data, 2023, localityCode));
             });
         });
     }

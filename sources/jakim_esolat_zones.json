@@ -26,6 +26,11 @@
             "city": "Mersing"
         },
         {
+            "code": "JHR02",
+            "state": "Johor",
+            "city": "Kulai"
+        },
+        {
             "code": "JHR03",
             "state": "Johor",
             "city": "Kluang"
@@ -54,6 +59,11 @@
             "code": "JHR04",
             "state": "Johor",
             "city": "Gemas Johor"
+        },
+        {
+            "code": "JHR04",
+            "state": "Johor",
+            "city": "Tangkak"
         }
     ],
     "Kedah": [
@@ -170,17 +180,17 @@
             "city": "Mukim Chiku"
         },
         {
-            "code": "KTN03",
+            "code": "KTN02",
             "state": "Kelantan",
             "city": "Gua Musang (Daerah Galas Dan Bertam)"
         },
         {
-            "code": "KTN03",
+            "code": "KTN02",
             "state": "Kelantan",
             "city": "Jeli"
         },
         {
-            "code": "KTN03",
+            "code": "KTN02",
             "state": "Kelantan",
             "city": "Jajahan Kecil Lojing"
         }
@@ -216,15 +226,15 @@
         {
             "code": "NGS02",
             "state": "Negeri Sembilan",
-            "city": "Port Dickson"
-        },
-        {
-            "code": "NGS02",
-            "state": "Negeri Sembilan",
             "city": "Rembau"
         },
         {
-            "code": "NGS02",
+            "code": "NGS03",
+            "state": "Negeri Sembilan",
+            "city": "Port Dickson"
+        },
+        {
+            "code": "NGS03",
             "state": "Negeri Sembilan",
             "city": "Seremban"
         }
@@ -736,7 +746,7 @@
         {
             "code": "SBH09",
             "state": "Sabah",
-            "city": "Long Pa Sia"
+            "city": "Long Pasia"
         },
         {
             "code": "SBH09",
