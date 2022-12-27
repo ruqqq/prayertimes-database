@@ -3,7 +3,7 @@
     "cheerio": "^1.0.0-rc.2",
     "csv-parse": "^4.4.6",
     "jest": "^23.0.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.34",
     "mysql": "^2.14.0",
     "request": "^2.85.0",
