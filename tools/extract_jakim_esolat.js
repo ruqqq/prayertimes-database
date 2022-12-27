@@ -301,5 +301,5 @@ function mkdirSyncRecursive(directory) {
 // fetchZones();
 // getPrayertimes(2022);
 // getPrayertimes(2022, true);
-// publishHijriData(2022);
+// publishHijriData(2023);
 publishToData(2022);
