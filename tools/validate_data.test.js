@@ -6,7 +6,7 @@ describe.each([
   [currentYear],
   [currentYear-1],
 ])('Validate data', (year) => {
-    const states = JSON.parse(fs.readFileSync("../data/zones.json").toString());
+    const states = JSON.parse(fs.readFileSync("./data/zones.json").toString());
     for (let k of Object.keys(states)) {
         const state = states[k];
         state.forEach(zone => {
@@ -35,7 +35,7 @@ describe.each([
 });
 
 function getPrayerTimes(countryCode, zone, year) {
-    return JSON.parse(fs.readFileSync(`../data/${countryCode}/${zone}/${year}.json`).toString());
+    return JSON.parse(fs.readFileSync(`./data/${countryCode}/${zone}/${year}.json`).toString());
 }
 
 function assertHas12MonthsOfData(data) {
