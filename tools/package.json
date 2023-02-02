@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "csv-parse": "^4.4.6",

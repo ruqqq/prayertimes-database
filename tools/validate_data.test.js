@@ -1,6 +1,11 @@
 const fs = require("fs");
 
-describe('Validate data', () => {
+const currentYear = new Date().getFullYear();
+
+describe.each([
+  [currentYear],
+  [currentYear-1],
+])('Validate data', (year) => {
     const states = JSON.parse(fs.readFileSync("../data/zones.json").toString());
     for (let k of Object.keys(states)) {
         const state = states[k];
@@ -10,20 +15,20 @@ describe('Validate data', () => {
                 let localityCode;
 
                 if (k === "Singapore") {
-                    data = getPrayerTimes("SG", "1", 2023);
+                    data = getPrayerTimes("SG", "1", year);
                     localityCode = "SG-1";
                 } else if (k === "Denpasar") {
                     // continue
                     return;
                 } else {
-                    data = getPrayerTimes("MY", zone.code, 2023);
+                    data = getPrayerTimes("MY", zone.code, year);
                     localityCode = `MY-${zone.code}`;
                 }
 
                 it("has 12 months", () => assertHas12MonthsOfData(data));
                 it("has valid 12 months", () => assertHasValid12Months(data));
                 it("has valid days in months", () => assertHasValidDaysInMonth(data));
-                it("has valid data in days", () => assertHasValidDataInDays(data, 2023, localityCode));
+                it("has valid data in days", () => assertHasValidDataInDays(data, year, localityCode));
             });
         });
     }
@@ -47,6 +52,9 @@ function assertHasValid12Months(data) {
 
 function assertHasValidDaysInMonth(data) {
     data.forEach(monthData => {
+        const daysInMonth = new Date(monthData[0].year, monthData[0].month, 0).getDate();
+        expect(monthData.length).toEqual(daysInMonth);
+
         monthData.forEach((dayData, i) => {
             expect(dayData.date).toBe(i + 1);
         });
