@@ -15,7 +15,7 @@ function parseTime(day, month, year, time, prayer_id) {
   return new Date(iso8601);
 }
 
-var contents = fs.readFileSync('../sources/tabula_muis_2024.csv', 'utf8');
+var contents = fs.readFileSync('../sources/tabula_muis_2025.csv', 'utf8');
 var parsed = parse(contents, {delimiter: ','});
 var output = {};
 
