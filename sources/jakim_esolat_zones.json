@@ -258,11 +258,6 @@
         {
             "code": "PHG02",
             "state": "Pahang",
-            "city": "Rompin"
-        },
-        {
-            "code": "PHG02",
-            "state": "Pahang",
             "city": "Muadzam Shah"
         },
         {
@@ -339,6 +334,26 @@
             "code": "PHG06",
             "state": "Pahang",
             "city": "Bukit Fraser"
+        },
+        {
+            "code": "PHG07",
+            "state": "Pahang",
+            "city": "Zon Khas Daerah Rompin"
+        },
+        {
+            "code": "PHG07",
+            "state": "Pahang",
+            "city": "(Mukim Rompin"
+        },
+        {
+            "code": "PHG07",
+            "state": "Pahang",
+            "city": "Mukim Endau"
+        },
+        {
+            "code": "PHG07",
+            "state": "Pahang",
+            "city": "Mukim Pontian)"
         }
     ],
     "Perlis": [

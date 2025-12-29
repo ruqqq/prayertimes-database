@@ -15,8 +15,8 @@ function parseTime(day, month, year, time, prayer_id) {
   return new Date(iso8601);
 }
 
-var contents = fs.readFileSync('../sources/tabula_muis_2025.csv', 'utf8');
-var parsed = parse(contents, {delimiter: ','});
+var contents = fs.readFileSync('../sources/tabula_muis_2026.csv', 'utf8');
+var parsed = parse(contents, { delimiter: ',' });
 var output = {};
 
 // Iterate the parsed CSV and construct our JSON data
@@ -80,7 +80,7 @@ for (var year of Object.keys(output)) {
 
 // Save our datas (in months folder)
 if (!fs.existsSync('../data/SG')) {
-    fs.mkdirSync('../data/SG');
+  fs.mkdirSync('../data/SG');
 }
 for (var year of Object.keys(output)) {
   var yearItem = output[year];
@@ -95,6 +95,6 @@ for (var year of Object.keys(output)) {
   for (var month of Object.keys(yearItem)) {
     month = parseInt(month);
     var monthItem = output[year][month];
-    fs.writeFileSync('../data/SG/1/' + year + '/' + (month+1) + '.json', JSON.stringify(monthItem, null, 4));
+    fs.writeFileSync('../data/SG/1/' + year + '/' + (month + 1) + '.json', JSON.stringify(monthItem, null, 4));
   }
 }

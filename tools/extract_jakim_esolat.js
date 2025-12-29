@@ -20,8 +20,8 @@ async function fetchZones() {
       const z = $(el);
       const code = z.attr('value');
       const cities = z.text()
-          .replace(`${code} - `, '')
-          .replace(' dan ', ', ');
+        .replace(`${code} - `, '')
+        .replace(' dan ', ', ');
 
       const citiesSplit = cities.split(', ');
       citiesSplit.forEach((city) => {
@@ -174,10 +174,10 @@ function publishToData(year) {
           console.log(cityData.code, parsedJSON.length);
 
           for (let month in parsedJSON) {
-            const filename = `${dirname}/${parseInt(month)+1}.json`;
+            const filename = `${dirname}/${parseInt(month) + 1}.json`;
 
             if (!fs.existsSync(dirname)) {
-                mkdirSyncRecursive(dirname);
+              mkdirSyncRecursive(dirname);
             }
 
             fs.writeFile(filename, JSON.stringify(parsedJSON[month], null, 4), (err) => {
@@ -282,24 +282,24 @@ function timeStrToMoment(date, month, year, time) {
 
 function msMonthToEn(month) {
   return month
-      .replace('Mac', 'Mar')
-      .replace('Mei', 'May')
-      .replace('Ogos', 'Aug')
-      .replace('Okt', 'Oct')
-      .replace('Dis', 'Dec');
+    .replace('Mac', 'Mar')
+    .replace('Mei', 'May')
+    .replace('Ogos', 'Aug')
+    .replace('Okt', 'Oct')
+    .replace('Dis', 'Dec');
 }
 
 function mkdirSyncRecursive(directory) {
-    var path = directory.replace(/\/$/, '').split('/');
+  var path = directory.replace(/\/$/, '').split('/');
 
-    for (var i = 1; i <= path.length; i++) {
-        var segment = path.slice(0, i).join('/');
-        !fs.existsSync(segment) ? fs.mkdirSync(segment) : null ;
-    }
+  for (var i = 1; i <= path.length; i++) {
+    var segment = path.slice(0, i).join('/');
+    !fs.existsSync(segment) ? fs.mkdirSync(segment) : null;
+  }
 }
 
 // fetchZones();
-// getPrayertimes(2025);
-// getPrayertimes(2025, true);
-// publishHijriData(2025);
-publishToData(2025);
+// getPrayertimes(2026);
+// getPrayertimes(2026, true);
+// publishHijriData(2026);
+// publishToData(2026);
