@@ -1,0 +1,16 @@
+{
+  "Brunei-Muara": [
+    { "code": "BRN01", "state": "Brunei-Muara", "city": "Bandar Seri Begawan", "lat": 4.9031, "lng": 114.9398, "timezone": "Asia/Brunei" },
+    { "code": "BRN01", "state": "Brunei-Muara", "city": "Muara", "lat": 5.0267, "lng": 115.0658, "timezone": "Asia/Brunei" }
+  ],
+  "Temburong": [
+    { "code": "BRN01", "state": "Temburong", "city": "Bangar", "lat": 4.7086, "lng": 115.0717, "timezone": "Asia/Brunei" }
+  ],
+  "Tutong": [
+    { "code": "BRN02", "state": "Tutong", "city": "Tutong", "lat": 4.8028, "lng": 114.6497, "timezone": "Asia/Brunei" }
+  ],
+  "Belait": [
+    { "code": "BRN03", "state": "Belait", "city": "Kuala Belait", "lat": 4.5836, "lng": 114.2312, "timezone": "Asia/Brunei" },
+    { "code": "BRN03", "state": "Belait", "city": "Seria", "lat": 4.6069, "lng": 114.3217, "timezone": "Asia/Brunei" }
+  ]
+}
