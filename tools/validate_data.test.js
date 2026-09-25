@@ -162,3 +162,36 @@ function assertSmallDailySteps(data) {
     }
     expect(problems).toEqual([]);
 }
+
+// hijri/umm-al-qura.json: hand-corrected when Saudi Arabia announces a month
+// start that differs from the table, so check every edit keeps it coherent.
+describe("Umm al-Qura month starts", () => {
+    const { monthStarts } = JSON.parse(fs.readFileSync("./hijri/umm-al-qura.json").toString());
+
+    it("lists every month in order, without gaps", () => {
+        for (let i = 1; i < monthStarts.length; i++) {
+            const [prevYear, prevMonth] = monthStarts[i - 1];
+            const [year, month] = monthStarts[i];
+            const expected = prevMonth === 12 ? [prevYear + 1, 1] : [prevYear, prevMonth + 1];
+            expect([year, month]).toEqual(expected);
+        }
+    });
+
+    it("has months of 29 or 30 days", () => {
+        const problems = [];
+        for (let i = 1; i < monthStarts.length; i++) {
+            const days = (Date.parse(monthStarts[i][2]) - Date.parse(monthStarts[i - 1][2])) / 86400000;
+            if (days !== 29 && days !== 30) {
+                problems.push(`${monthStarts[i - 1][0]}-${monthStarts[i - 1][1]} has ${days} days`);
+            }
+        }
+        expect(problems).toEqual([]);
+    });
+
+    it("uses real dates", () => {
+        monthStarts.forEach(([, , date]) => {
+            expect(date).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+            expect(new Date(date + "T00:00:00Z").toISOString().slice(0, 10)).toBe(date);
+        });
+    });
+});
